@@ -1,0 +1,128 @@
+import XCTest
+
+/// Every user-facing string the people wave added (bulk triage, the Requests badge and unavailable page, the reset link and
+/// temporary password, Profiles, Watching now, API keys) has a `Localizable.xcstrings` entry, so a translation pass never
+/// has to rebuild with `SWIFT_EMIT_LOC_STRINGS` first to discover them.
+final class PeopleStringCatalogTests: XCTestCase {
+    private static let catalogURL = URL(fileURLWithPath: #filePath)
+        .deletingLastPathComponent()  // Users
+        .deletingLastPathComponent()  // BloemAdminTests
+        .deletingLastPathComponent()  // repo root
+        .appendingPathComponent("BloemAdmin/Localizable.xcstrings")
+
+    func testThePeopleWaveStringsAreCatalogBacked() throws {
+        let data = try Data(contentsOf: Self.catalogURL)
+        let root = try XCTUnwrap(try JSONSerialization.jsonObject(with: data) as? [String: Any])
+        let keys = Set(try XCTUnwrap(root["strings"] as? [String: Any]).keys)
+        let expected = [
+            "API key administration isn't available on this server",
+            "API keys",
+            "Create keys, and change a key's rate tier, on the web admin.",
+            "Keep key",
+            "Keys are created on the web admin and listed here.",
+            "More keys could not be loaded",
+            "No API keys yet",
+            "Revoke %@",
+            "Revoke key",
+            "The server has no API key service running. Check its configuration on the web, then pull down to check again.",
+            "%@ was already revoked",
+            "Revoked %@",
+            "The API keys could not be loaded.",
+            "The key could not be revoked. Check the list and try again.",
+            "The server sent no version for this key, so it can't be revoked safely. Try again, or revoke it on the web.",
+            "This key changed since the list was loaded. Check it and try again.",
+            "%@ stops working at once, and anything using it is refused from now on. This can't be undone.",
+            "1 scope: %@",
+            "Elevated rate limit",
+            "Full access",
+            "Last used %@",
+            "Never used",
+            "Owner: %@",
+            "Owner: unknown account",
+            "Revoke %@?",
+            "Unnamed key",
+            "%lld %@ %@",
+            "%lld of %lld %@ %@.",
+            "%lld selected",
+            "Approve %lld",
+            "Approving %lld of %lld",
+            "Decline %lld",
+            "Decline %lld request",
+            "Decline %lld requests",
+            "Declining %lld of %lld",
+            "None selected",
+            "Select all %lld shown",
+            "The %lld that failed stay selected, with the reason for each.",
+            "The %lld that failed stays selected, with its reason.",
+            "The request could not be sent.",
+            "The request will be marked declined, and the requester is told. Add an optional note for them.",
+            "The requests will be marked declined, and each requester is told. Add an optional note for them.",
+            "approved",
+            "declined",
+            "request",
+            "requests",
+            "Approving requests",
+            "Clear",
+            "Declining requests",
+            "Keep requests",
+            "Select",
+            "%lld request needs approval",
+            "%lld requests need approval",
+            "Couldn't refresh · last updated %@",
+            "Selects or deselects the request",
+            "Check the server's configuration on the web.",
+            "Request administration isn't available on this server",
+            "The server has no request service running. Check its configuration on the web, then pull down to check again.",
+            "Admin API keys and tier assignment.",
+            "The link couldn't be confirmed. Close this and create another one; it replaces any earlier link.",
+            "The server didn't return a link. Close this and create another one.",
+            "Set a temporary password",
+            "This replaces %@'s password. Share the new one with %@ yourself; they choose their own at the next sign-in.",
+            "Choose a password yourself and share it. %@ must change it at the next sign-in.",
+            "Create a one-time link and give it to %@ yourself. You'll see it once. Any earlier link stops working.",
+            "Link to hand over",
+            "Reset links aren't available on this server. Set the server's public address on the web to turn them on.",
+            "Set temporary password",
+            "Share link",
+            "This account is disabled. Enable it first to create a link.",
+            "A PIN can be at most %lld bytes.",
+            "Anyone signed in to %@ with the old PIN is signed out of it.",
+            "Change PIN",
+            "Children's profile",
+            "Its watch history and collections are deleted, and anyone signed in to it is signed out. This can't be undone. A stream already playing on it isn't stopped.",
+            "Leave it empty for a profile that opens without a PIN.",
+            "New PIN",
+            "No PIN",
+            "Only the server owner can change this account's profiles. You can view them.",
+            "PIN (optional)",
+            "Remove",
+            "Set PIN",
+            "The profile opens without a PIN until a new one is set.",
+            "This is the account's main profile: anyone using the account can open it until a new PIN is set.",
+            "Could not load the profiles.",
+            "PIN cleared on %@",
+            "PIN set on %@",
+            "Profile %@ added",
+            "Profile %@ removed",
+            "Profile renamed to %@",
+            "The PIN couldn't be cleared. Check the profile and try again.",
+            "The PIN couldn't be set. Check the profile and try again.",
+            "The new name couldn't be saved. Check the profile and try again.",
+            "The profile couldn't be added. Check the profiles below and try again.",
+            "The profile couldn't be removed. Check the profiles below and try again.",
+            "%@ of %@",
+            "Expired %@",
+            "No activity since signing in",
+            "Not seen yet",
+            "Not watching right now",
+            "Watching now",
+            "Watching now · %lld stream",
+            "Watching now · %lld streams",
+            "%lld scopes: %@",
+            "Expires %@"
+        ]
+        for key in expected {
+            XCTAssertTrue(keys.contains(key), "missing catalog key: \(key)")
+        }
+    }
+}

@@ -1,0 +1,249 @@
+name: CI
+
+# Only pushes to main and manual runs start this workflow. The repository takes no pull requests, so no outside code runs here.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  SCHEME: BloemAdmin
+  XCODE_PATH: /Applications/Xcode_26.6.app/Contents/Developer
+  IPHONE_DESTINATION: platform=iOS Simulator,name=iPhone 17,OS=latest
+  IPAD_DESTINATION: platform=iOS Simulator,name=iPad Pro 13-inch (M5),OS=latest
+
+jobs:
+  project-integrity:
+    name: Generated project is current
+    runs-on: macos-26
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Select Xcode 26.6
+        run: |
+          sudo xcode-select -s "$XCODE_PATH"
+          xcodebuild -version
+
+      - name: Install pinned XcodeGen 2.46.0
+        env:
+          XCODEGEN_SHA256: 4d9e34b62172d645eed6457cac13fc222569974098ef4ee9c3368bedf0196806
+        run: |
+          archive="$RUNNER_TEMP/xcodegen-2.46.0.zip"
+          install_dir="$RUNNER_TEMP/xcodegen-2.46.0"
+          curl --proto '=https' --tlsv1.2 --location --fail --silent --show-error \
+            --output "$archive" \
+            https://github.com/yonaskolb/XcodeGen/releases/download/2.46.0/xcodegen.zip
+          echo "$XCODEGEN_SHA256  $archive" | shasum -a 256 --check
+          mkdir -p "$install_dir"
+          ditto -x -k "$archive" "$install_dir"
+          sudo "$install_dir/xcodegen/install.sh"
+          test "$(xcodegen --version)" = "Version: 2.46.0"
+
+      - name: Regenerate project and reject drift
+        run: |
+          xcodegen generate
+          if ! git diff --exit-code; then
+            echo "::error::Tracked XcodeGen output differs from project.yml. Run 'xcodegen generate' and commit the result."
+            exit 1
+          fi
+          if test -n "$(git ls-files --others --exclude-standard)"; then
+            git status --short
+            echo "::error::XcodeGen produced untracked output. Run 'xcodegen generate' and commit the result."
+            exit 1
+          fi
+
+  tests:
+    name: Unit and UI tests
+    needs: project-integrity
+    runs-on: macos-26
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Select Xcode 26.6 and verify destinations
+        run: |
+          sudo xcode-select -s "$XCODE_PATH"
+          xcodebuild -version
+          xcodebuild -project BloemAdmin.xcodeproj -scheme "$SCHEME" -showdestinations
+
+      - name: Run unit and iPhone UI tests with coverage
+        run: |
+          set -o pipefail
+          # Ad-hoc signing, as on a developer Mac: an unsigned simulator app cannot use the
+          # Keychain, where the app keeps each server's sign-in.
+          xcodebuild test \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -destination "$IPHONE_DESTINATION" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-iPhone" \
+            -resultBundlePath "$RUNNER_TEMP/BloemAdmin-iPhone.xcresult" \
+            -enableCodeCoverage YES \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY=- \
+            DEVELOPMENT_TEAM= \
+            | tee "$RUNNER_TEMP/xcodebuild-iPhone-test.log"
+
+      - name: Run iPad UI smoke tests with coverage
+        run: |
+          set -o pipefail
+          # Ad-hoc signing, as on a developer Mac: an unsigned simulator app cannot use the
+          # Keychain, where the app keeps each server's sign-in.
+          xcodebuild test \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -destination "$IPAD_DESTINATION" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-iPad" \
+            -resultBundlePath "$RUNNER_TEMP/BloemAdmin-iPad.xcresult" \
+            -enableCodeCoverage YES \
+            -only-testing:BloemAdminUITests \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY=- \
+            DEVELOPMENT_TEAM= \
+            | tee "$RUNNER_TEMP/xcodebuild-iPad-test.log"
+
+      - name: Upload test results and logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: test-results
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            ${{ runner.temp }}/BloemAdmin-iPhone.xcresult
+            ${{ runner.temp }}/BloemAdmin-iPad.xcresult
+            ${{ runner.temp }}/xcodebuild-iPhone-test.log
+            ${{ runner.temp }}/xcodebuild-iPad-test.log
+
+  build-and-analyze:
+    name: Swift 6 builds and analysis
+    needs: project-integrity
+    runs-on: macos-26
+    timeout-minutes: 35
+
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Select Xcode 26.6
+        run: |
+          sudo xcode-select -s "$XCODE_PATH"
+          xcodebuild -version
+
+      - name: Build strict Swift 6 Debug
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-build-Debug" \
+            SWIFT_VERSION=6.0 \
+            SWIFT_STRICT_CONCURRENCY=complete \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES \
+            CODE_SIGNING_ALLOWED=NO \
+            | tee "$RUNNER_TEMP/xcodebuild-Debug.log"
+
+      - name: Build strict Swift 6 Release
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-build-Release" \
+            SWIFT_VERSION=6.0 \
+            SWIFT_STRICT_CONCURRENCY=complete \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES \
+            CODE_SIGNING_ALLOWED=NO \
+            | tee "$RUNNER_TEMP/xcodebuild-Release.log"
+
+      - name: Analyze
+        run: |
+          set -o pipefail
+          xcodebuild analyze \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-analyze" \
+            -resultBundlePath "$RUNNER_TEMP/BloemAdmin-analyze.xcresult" \
+            SWIFT_VERSION=6.0 \
+            SWIFT_STRICT_CONCURRENCY=complete \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES \
+            CODE_SIGNING_ALLOWED=NO \
+            | tee "$RUNNER_TEMP/xcodebuild-analyze.log"
+
+      - name: Upload build and analysis diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: build-analysis-results
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            ${{ runner.temp }}/BloemAdmin-analyze.xcresult
+            ${{ runner.temp }}/xcodebuild-Debug.log
+            ${{ runner.temp }}/xcodebuild-Release.log
+            ${{ runner.temp }}/xcodebuild-analyze.log
+
+  release-archive:
+    name: Unsigned Release archive and privacy manifest
+    needs: [project-integrity, build-and-analyze, tests]
+    runs-on: macos-26
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Select Xcode 26.6
+        run: |
+          sudo xcode-select -s "$XCODE_PATH"
+          xcodebuild -version
+
+      - name: Produce unsigned generic-device archive
+        run: |
+          set -o pipefail
+          xcodebuild archive \
+            -project BloemAdmin.xcodeproj \
+            -scheme "$SCHEME" \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath "$RUNNER_TEMP/BloemAdmin.xcarchive" \
+            -derivedDataPath "$RUNNER_TEMP/DerivedData-archive" \
+            SWIFT_VERSION=6.0 \
+            SWIFT_STRICT_CONCURRENCY=complete \
+            SWIFT_TREAT_WARNINGS_AS_ERRORS=YES \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY= \
+            | tee "$RUNNER_TEMP/xcodebuild-archive.log"
+
+      - name: Inspect bundled privacy manifest
+        run: |
+          manifest="$RUNNER_TEMP/BloemAdmin.xcarchive/Products/Applications/BloemAdmin.app/PrivacyInfo.xcprivacy"
+          test -f "$manifest"
+          plutil -lint "$manifest"
+          plutil -p "$manifest" | tee "$RUNNER_TEMP/privacy-manifest.txt"
+
+      - name: Upload archive evidence and logs
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: release-archive-evidence
+          if-no-files-found: warn
+          retention-days: 14
+          path: |
+            ${{ runner.temp }}/BloemAdmin.xcarchive
+            ${{ runner.temp }}/privacy-manifest.txt
+            ${{ runner.temp }}/xcodebuild-archive.log

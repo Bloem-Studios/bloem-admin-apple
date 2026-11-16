@@ -1,0 +1,256 @@
+name: BloemAdmin
+options:
+  minimumDeploymentTarget:
+    iOS: 17.0
+  createIntermediateGroups: true
+# The team is never committed: Config/Signing.xcconfig includes an optional, git-ignored Signing.local.xcconfig, and
+# scripts/testflight.sh passes DEVELOPMENT_TEAM on the command line.
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    # The defaults for a local build. scripts/testflight.sh overrides both: the marketing version comes from the
+    # release tag and the build number only ever goes up. The app and both extensions must carry the same pair.
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+schemes:
+  BloemAdmin:
+    build:
+      targets:
+        BloemAdmin: all
+    test:
+      gatherCoverageData: true
+      coverageTargets:
+        - BloemAdmin
+      targets:
+        - name: BloemAdminTests
+          parallelizable: true
+        - name: BloemAdminUITests
+          parallelizable: false
+targets:
+  BloemAdmin:
+    type: application
+    platform: iOS
+    sources:
+      - path: BloemAdmin
+    dependencies:
+      # Home Screen and Lock Screen widgets and the Control Center control.
+      - target: BloemAdminWidgets
+      # Replaces the relay's generic push text with the real title and body (docs/design.md).
+      - target: BloemAdminNotificationService
+    # The App Group the app shares its widget snapshot through (BloemAdmin/Shared/AdminSnapshot.swift).
+    entitlements:
+      path: BloemAdmin/BloemAdmin.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.bloemstudios.admin
+        # The widgets' mirror of each server's sign-in (BloemAdmin/Shared/Widgets/WidgetCredentialMirror.swift),
+        # and the push registrations the notification service extension reads (BloemAdmin/Push/Core).
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.bloemstudios.admin.shared
+        # Push notifications: development for Debug builds, production for Release (APS_ENVIRONMENT below).
+        aps-environment: $(APS_ENVIRONMENT)
+    settings:
+      configs:
+        # The build's APNs environment. The registration tells the server which one the token belongs to.
+        Debug:
+          APS_ENVIRONMENT: development
+        Release:
+          APS_ENVIRONMENT: production
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.bloemstudios.admin
+        PRODUCT_NAME: BloemAdmin
+        INFOPLIST_FILE: BloemAdmin/Info.plist
+        SUPPORTED_DEVICE_FAMILIES: [1, 2]
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        # Localization infrastructure (Feature Batch B item 6): lets the
+        # compiler extract Text/Button/etc. string literals AND String(localized:)
+        # call sites straight into Localizable.xcstrings, so new literals get
+        # picked up automatically without another manual sweep. English is the
+        # only shipped language for now — the catalog just needs to exist and
+        # be wired in.
+        SWIFT_EMIT_LOC_STRINGS: YES
+    info:
+      path: BloemAdmin/Info.plist
+      properties:
+        CFBundleDisplayName: Bloem Admin
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        # Export compliance: the app only uses Apple's TLS (URLSession over HTTPS), the Keychain, LocalAuthentication
+        # and a SHA-256 digest (OAuth PKCE and ids), so it uses no non-exempt encryption and App Store Connect does not
+        # ask about it for every build.
+        ITSAppUsesNonExemptEncryption: false
+        NSFaceIDUsageDescription: Bloem Admin uses Face ID to keep administrator access to your media servers locked when the app isn't in use.
+        NSLocalNetworkUsageDescription: Bloem Admin connects to media servers added by an administrator on this network.
+        # Plus Jakarta Sans (SIL OFL 1.1, LICENSES/PlusJakartaSans-OFL.txt): one variable font, 200 to 800.
+        UIAppFonts:
+          - PlusJakartaSans-Variable.ttf
+        # The team prefix of the shared keychain group, read at run time (empty in an unsigned build).
+        BloemKeychainGroupPrefix: $(AppIdentifierPrefix)
+        # `development` or `production`, as the aps-environment entitlement: which APNs the token belongs to.
+        BloemAPSEnvironment: $(APS_ENVIRONMENT)
+        # A library scan or a backup started in the app shows as a Live Activity.
+        NSSupportsLiveActivities: true
+        # The launch screen is the canvas, so the app opens on its own colour (the default is white or black).
+        UILaunchScreen:
+          UIColorName: BloemBackground
+        # Long-press the app icon: Now playing, Requests and Dashboard across all servers.
+        UIApplicationShortcutItems:
+          - UIApplicationShortcutItemType: com.bloemstudios.admin.quick.now-playing
+            UIApplicationShortcutItemTitle: Now playing
+            UIApplicationShortcutItemIconFile: lucide.radio
+          - UIApplicationShortcutItemType: com.bloemstudios.admin.quick.requests
+            UIApplicationShortcutItemTitle: Requests
+            UIApplicationShortcutItemIconFile: lucide.inbox
+          - UIApplicationShortcutItemType: com.bloemstudios.admin.quick.dashboard
+            UIApplicationShortcutItemTitle: Dashboard
+            UIApplicationShortcutItemIconFile: lucide.layout-dashboard
+        # Background check of every saved server's public health route (Server alerts in App settings).
+        # iOS decides when it runs; nothing is requested until the admin turns alerts on.
+        UIBackgroundModes:
+          - fetch
+          # A silent push (a widget wake, or the background half of an alert push) reloads the widgets.
+          - remote-notification
+        BGTaskSchedulerPermittedIdentifiers:
+          - com.bloemstudios.admin.health-check
+        # Links into the app (notifications, widgets, the control, shortcuts): bloemadmin://. Not the OAuth
+        # redirect scheme, which is only used inside a web authentication session.
+        CFBundleURLTypes:
+          - CFBundleURLName: com.bloemstudios.admin.link
+            CFBundleURLSchemes:
+              - bloemadmin
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+  # The widget extension: the Server status, Now playing, Requests, Libraries and Nodes widgets, the Now
+  # playing and Requests waiting controls, and the scan and backup Live Activity. It shares code with the app
+  # by compiling the same files (BloemAdmin/Shared, which holds Shared/Widgets, and the public health check),
+  # reads the snapshot and settings the app writes into the App Group, and reads the app's sign-in only from
+  # the shared keychain group's mirror (docs/platform-features.md).
+  BloemAdminWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BloemAdminWidgets
+      - path: BloemAdmin/Shared
+      - path: BloemAdmin/Networking/API/HealthProbe.swift
+      # The widget's own small admin API client: API paths live under Networking/API.
+      - path: BloemAdmin/Networking/API/WidgetServerAPI.swift
+      # The keychain calls behind the widgets' shared sign-in, behind the same seam the app's store uses.
+      - path: BloemAdmin/Networking/SecurityClient.swift
+      # The app's own session model and presentation rules (Foundation only), so a Now playing card says what the
+      # Now playing page says: the title, who, the playback method, the transcode detail and the client.
+      - path: BloemAdmin/Streams/AdminSession.swift
+      - path: BloemAdmin/Streams/StreamPresentation.swift
+      - path: BloemAdmin/Streams/StreamFacts.swift
+      # The same typeface as the app (BloemAdmin/Shared/BloemFont.swift sets the text in it).
+      - path: BloemAdmin/Resources/Fonts/PlusJakartaSans-Variable.ttf
+    entitlements:
+      path: BloemAdminWidgets/BloemAdminWidgets.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.bloemstudios.admin
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.bloemstudios.admin.shared
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.bloemstudios.admin.widgets
+      PRODUCT_NAME: BloemAdminWidgets
+      INFOPLIST_FILE: BloemAdminWidgets/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      SUPPORTED_DEVICE_FAMILIES: [1, 2]
+      SKIP_INSTALL: YES
+      APPLICATION_EXTENSION_API_ONLY: YES
+      SWIFT_EMIT_LOC_STRINGS: YES
+    info:
+      path: BloemAdminWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: Bloem Admin
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        BloemKeychainGroupPrefix: $(AppIdentifierPrefix)
+        UIAppFonts:
+          - PlusJakartaSans-Variable.ttf
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+  # The notification service extension. The relay sends a generic alert with `mutable-content` and a delivery
+  # id, and never any text. iOS hands the push to this extension first; it asks the app's own server for the
+  # real title and body with this device's display token and replaces the generic text (adding names only when
+  # "Show details on the lock screen" is on). It compiles only Foundation-level code the app shares
+  # (BloemAdmin/Push/Core, the display-token client and the keychain seam), reads one keychain item in the
+  # shared group (the display token, readable after the first unlock) and one settings file in the App Group,
+  # and never holds a sign-in. The bundle id is the one registered for it.
+  BloemAdminNotificationService:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BloemAdminNotificationService
+      - path: BloemAdmin/Push/Core
+      - path: BloemAdmin/Networking/API/PushDisplayAPI.swift
+      - path: BloemAdmin/Networking/API/APIPath.swift
+      - path: BloemAdmin/Networking/SecurityClient.swift
+    entitlements:
+      path: BloemAdminNotificationService/BloemAdminNotificationService.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.com.bloemstudios.admin
+        keychain-access-groups:
+          - $(AppIdentifierPrefix)com.bloemstudios.admin.shared
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.bloemstudios.admin.NotificationService
+      PRODUCT_NAME: BloemAdminNotificationService
+      INFOPLIST_FILE: BloemAdminNotificationService/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      SUPPORTED_DEVICE_FAMILIES: [1, 2]
+      SKIP_INSTALL: YES
+      APPLICATION_EXTENSION_API_ONLY: YES
+      SWIFT_EMIT_LOC_STRINGS: YES
+    info:
+      path: BloemAdminNotificationService/Info.plist
+      properties:
+        CFBundleDisplayName: Bloem Admin
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        BloemKeychainGroupPrefix: $(AppIdentifierPrefix)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.usernotifications.service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).NotificationService
+  BloemAdminTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: BloemAdminTests
+    dependencies:
+      - target: BloemAdmin
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.bloemstudios.admin.tests
+      PRODUCT_NAME: BloemAdminTests
+      INFOPLIST_FILE: BloemAdminTests/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    info:
+      path: BloemAdminTests/Info.plist
+  BloemAdminUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources:
+      - path: BloemAdminUITests
+    dependencies:
+      - target: BloemAdmin
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.bloemstudios.admin.uitests
+      PRODUCT_NAME: BloemAdminUITests
+      INFOPLIST_FILE: BloemAdminUITests/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+      TEST_TARGET_NAME: BloemAdmin
+    info:
+      path: BloemAdminUITests/Info.plist

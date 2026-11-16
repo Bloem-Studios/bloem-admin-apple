@@ -1,0 +1,9 @@
+// Code signing for the three shipping targets. Nothing about a team is committed.
+//
+// To build for a device or archive from Xcode, copy Signing.example.xcconfig to Signing.local.xcconfig (git-ignored,
+// same folder) and put your own Apple Developer Team ID in it. scripts/testflight.sh does not read this file: it takes
+// the team from the BLOEM_ADMIN_TEAM_ID environment variable and passes it on the xcodebuild command line, which
+// wins over this file.
+//
+// The optional include below is silently skipped when Signing.local.xcconfig does not exist, so a clean clone builds.
+#include? "Signing.local.xcconfig"

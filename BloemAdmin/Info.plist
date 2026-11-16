@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.bloemstudios.admin.health-check</string>
+	</array>
+	<key>BloemAPSEnvironment</key>
+	<string>$(APS_ENVIRONMENT)</string>
+	<key>BloemKeychainGroupPrefix</key>
+	<string>$(AppIdentifierPrefix)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Bloem Admin</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.bloemstudios.admin.link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bloemadmin</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Bloem Admin uses Face ID to keep administrator access to your media servers locked when the app isn't in use.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Bloem Admin connects to media servers added by an administrator on this network.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlusJakartaSans-Variable.ttf</string>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>lucide.radio</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Now playing</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.bloemstudios.admin.quick.now-playing</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>lucide.inbox</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Requests</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.bloemstudios.admin.quick.requests</string>
+		</dict>
+		<dict>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>lucide.layout-dashboard</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Dashboard</string>
+			<key>UIApplicationShortcutItemType</key>
+			<string>com.bloemstudios.admin.quick.dashboard</string>
+		</dict>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>BloemBackground</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

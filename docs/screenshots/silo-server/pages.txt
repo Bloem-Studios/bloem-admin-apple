@@ -1,0 +1,26 @@
+all Dashboard: loaded
+all Now playing: loaded
+all Libraries: loaded
+all Requests, 1 request needs approval: loaded
+all Users: loaded
+all Playback history: loaded
+all Nodes: loaded
+all Settings: loaded
+all Scheduled tasks: loaded
+all Backups: loaded
+all Plugins: loaded
+all Audit: loaded
+server Now playing: loaded
+server Dashboard: loaded
+server Logs: loaded
+server Libraries: loaded
+server Requests, 1 request needs approval: loaded
+server Users: loaded
+server Playback history: loaded
+server Nodes: not on this server (This server has no nodes)
+server Settings: loaded
+server Scheduled tasks: loaded
+server Backups: loaded
+server Plugins: loaded
+server Audit: loaded
+server API keys: loaded

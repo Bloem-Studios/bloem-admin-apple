@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- The template scripts/testflight.sh copies into build/ and completes. It deliberately has no teamID: the
+	     script adds it from BLOEM_ADMIN_TEAM_ID, so no team is ever committed. -->
+	<key>method</key>
+	<string>app-store-connect</string>
+	<!-- "upload" sends the build straight to App Store Connect (TestFlight). The script's --no-upload flag
+	     changes it to "export" in the copy, which only writes an .ipa. -->
+	<key>destination</key>
+	<string>upload</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<!-- The script sets the build number itself and it only ever goes up, so Xcode must not renumber it. -->
+	<key>manageAppVersionAndBuildNumber</key>
+	<false/>
+	<key>testFlightInternalTestingOnly</key>
+	<false/>
+</dict>
+</plist>

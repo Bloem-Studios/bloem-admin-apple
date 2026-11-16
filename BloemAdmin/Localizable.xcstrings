@@ -1,0 +1,7118 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Not selected" : {
+
+    },
+    "Selected" : {
+
+    },
+    "%@ %@ version %lld" : {
+
+    },
+    "%@ (paused or withdrawn)" : {
+
+    },
+    "%@ version %lld" : {
+
+    },
+    "%@: allowed" : {
+
+    },
+    "%@: refused" : {
+
+    },
+    "%lld account" : {
+
+    },
+    "%lld accounts" : {
+
+    },
+    "%lld active" : {
+
+    },
+    "%lld changed" : {
+
+    },
+    "%lld conversion" : {
+
+    },
+    "%lld conversions" : {
+
+    },
+    "%lld failed" : {
+
+    },
+    "%lld libraries" : {
+
+    },
+    "%lld libraries members can use now" : {
+
+    },
+    "%lld library" : {
+
+    },
+    "%lld library members can use now" : {
+
+    },
+    "%lld member" : {
+
+    },
+    "%lld members" : {
+
+    },
+    "%lld more match but are left out" : {
+
+    },
+    "%lld of %lld done" : {
+
+    },
+    "%lld owned" : {
+
+    },
+    "%lld paused" : {
+
+    },
+    "%lld people" : {
+
+    },
+    "%lld people selected" : {
+
+    },
+    "%lld person" : {
+
+    },
+    "%lld person selected" : {
+
+    },
+    "%lld profile" : {
+
+    },
+    "%lld profile in %@ will be reassigned to %@, this organization's default group. Their own restrictions are unchanged." : {
+
+    },
+    "%lld profile moved to the default group" : {
+
+    },
+    "%lld profiles" : {
+
+    },
+    "%lld profiles in %@ will be reassigned to %@, this organization's default group. Their own restrictions are unchanged." : {
+
+    },
+    "%lld profiles moved to the default group" : {
+
+    },
+    "%lld screen" : {
+
+    },
+    "%lld screens" : {
+
+    },
+    "%lld shared and active" : {
+
+    },
+    "%lld skipped" : {
+
+    },
+    "%lld withdrawn" : {
+
+    },
+    "0 = unlimited" : {
+
+    },
+    "A cohort is a group of accounts that share the same settings. A cohort never changes." : {
+
+    },
+    "A custom rule refused it" : {
+
+    },
+    "A group can use only libraries the organization can use. A paused or withdrawn shared library can't be given to a group." : {
+
+    },
+    "A member also needs the permission granted on their own account" : {
+
+    },
+    "About" : {
+
+    },
+    "About %@" : {
+
+    },
+    "Above the profile's age rating" : {
+
+    },
+    "Above their best allowed picture quality" : {
+
+    },
+    "Accepted" : {
+
+    },
+    "Access check" : {
+
+    },
+    "Access checks" : {
+
+    },
+    "Access checks couldn't be loaded. Try again." : {
+
+    },
+    "Access group" : {
+
+    },
+    "Access group ID" : {
+
+    },
+    "Access group: %@" : {
+
+    },
+    "Access groups" : {
+
+    },
+    "Access groups couldn't be loaded. Try again." : {
+
+    },
+    "Account %lld" : {
+
+    },
+    "Account %lld · revision %lld" : {
+
+    },
+    "Account moved to a new plan or settings" : {
+
+    },
+    "Account not recorded" : {
+
+    },
+    "Actions for %@" : {
+
+    },
+    "Active" : {
+
+    },
+    "active in the last %lld days" : {
+
+    },
+    "Active since" : {
+
+    },
+    "Activity & Audit" : {
+
+    },
+    "Activity couldn't be loaded. Try again." : {
+
+    },
+    "Administrator" : {
+
+    },
+    "All %@ selected" : {
+
+    },
+    "All libraries" : {
+
+    },
+    "All permissions" : {
+
+    },
+    "Allow every permission" : {
+
+    },
+    "Allowed" : {
+
+    },
+    "already had these settings" : {
+
+    },
+    "Always available to this organization's members" : {
+
+    },
+    "An account failed in a bulk change" : {
+
+    },
+    "An account was skipped in a bulk change" : {
+
+    },
+    "Any access group" : {
+
+    },
+    "Any quality" : {
+
+    },
+    "Any status" : {
+
+    },
+    "Any time" : {
+
+    },
+    "Apply" : {
+
+    },
+    "Archived" : {
+
+    },
+    "Archived cohorts (%lld)" : {
+
+    },
+    "Ask for movies and shows the server doesn't have yet" : {
+
+    },
+    "Audio conversion" : {
+
+    },
+    "Audio conversion is switched off" : {
+
+    },
+    "Best picture quality" : {
+
+    },
+    "Bulk change failed" : {
+
+    },
+    "Bulk change finished" : {
+
+    },
+    "Bulk change started" : {
+
+    },
+    "Bulk change stopped" : {
+
+    },
+    "Bulk people actions" : {
+
+    },
+    "Bulk plan or settings change started" : {
+
+    },
+    "By account %lld" : {
+
+    },
+    "By Silo" : {
+
+    },
+    "Cancelled" : {
+
+    },
+    "Changed %@" : {
+
+    },
+    "changed after you chose" : {
+
+    },
+    "Changed from another cohort" : {
+
+    },
+    "changed while this ran" : {
+
+    },
+    "Changes to this membership among the latest %lld on the organization" : {
+
+    },
+    "Changes to this organization: its name and status, its members, and their plans. Sign-ins, playback and other server events are not listed here." : {
+
+    },
+    "Changing people…" : {
+
+    },
+    "Check" : {
+
+    },
+    "Checking access…" : {
+
+    },
+    "Choose an organization" : {
+
+    },
+    "Choose another organization" : {
+
+    },
+    "Cohort ID" : {
+
+    },
+    "Cohort revision" : {
+
+    },
+    "Cohorts" : {
+
+    },
+    "Cohorts couldn't be loaded. Try again." : {
+
+    },
+    "Concurrent streams" : {
+
+    },
+    "Conversions at once" : {
+
+    },
+    "Convert a video when the device can't play the file as it is" : {
+
+    },
+    "Convert audio" : {
+
+    },
+    "Convert video" : {
+
+    },
+    "Copy link" : {
+
+    },
+    "Could not verify administrator access." : {
+
+    },
+    "couldn't be saved" : {
+
+    },
+    "Couldn't load" : {
+
+    },
+    "Couldn't open this organization" : {
+
+    },
+    "Create" : {
+
+    },
+    "Create invite link" : {
+
+    },
+    "Created" : {
+
+    },
+    "Created by" : {
+
+    },
+    "Default" : {
+
+    },
+    "Default for new users" : {
+
+    },
+    "Delete" : {
+
+    },
+    "Delete group" : {
+
+    },
+    "Delete “%@”?" : {
+
+    },
+    "Description" : {
+
+    },
+    "Details" : {
+
+    },
+    "Dismiss" : {
+
+    },
+    "Done selecting" : {
+
+    },
+    "Download" : {
+
+    },
+    "Download a converted copy" : {
+
+    },
+    "Download converted copies" : {
+
+    },
+    "Download original files" : {
+
+    },
+    "Downloads" : {
+
+    },
+    "Downloads & requests" : {
+
+    },
+    "Downloads are switched off on this server" : {
+
+    },
+    "Edit intro and credits markers" : {
+
+    },
+    "Edit metadata" : {
+
+    },
+    "Email address" : {
+
+    },
+    "Enter a name for the group" : {
+
+    },
+    "Enter an email address" : {
+
+    },
+    "Every conversion they're allowed was already in use" : {
+
+    },
+    "Every library the organization can use" : {
+
+    },
+    "Every screen they're allowed was already in use" : {
+
+    },
+    "everyone" : {
+
+    },
+    "Everyone in this organization. Change a profile's access group here, or select people to change several at once." : {
+
+    },
+    "Expired" : {
+
+    },
+    "Expires %@" : {
+
+    },
+    "Extra permissions" : {
+
+    },
+    "Failed" : {
+
+    },
+    "From a plan" : {
+
+    },
+    "From plan %@" : {
+
+    },
+    "From plan %@, revision %lld" : {
+
+    },
+    "Give back" : {
+
+    },
+    "Give back %@?" : {
+
+    },
+    "Give back for %@" : {
+
+    },
+    "Group %@" : {
+
+    },
+    "Group %lld" : {
+
+    },
+    "Group created" : {
+
+    },
+    "Group deleted" : {
+
+    },
+    "Group saved" : {
+
+    },
+    "Groups that decide what each profile can use. Create, edit and delete them here." : {
+
+    },
+    "has no profiles" : {
+
+    },
+    "How it was made" : {
+
+    },
+    "in %@" : {
+
+    },
+    "Initializing" : {
+
+    },
+    "Invitation link ready" : {
+
+    },
+    "Invite link" : {
+
+    },
+    "Invite members to this organization. No email is sent: you get a one-time link to pass on." : {
+
+    },
+    "Invite someone" : {
+
+    },
+    "Invited" : {
+
+    },
+    "Invited by %@" : {
+
+    },
+    "is the organization owner and can't be changed here" : {
+
+    },
+    "isn't suspended" : {
+
+    },
+    "Kept for the record. Nobody can be moved to an archived cohort." : {
+
+    },
+    "Last %lld days" : {
+
+    },
+    "Last 24 hours" : {
+
+    },
+    "Last active %@" : {
+
+    },
+    "Libraries" : {
+
+    },
+    "Libraries & Entitlements" : {
+
+    },
+    "Libraries & playback" : {
+
+    },
+    "Libraries couldn't be loaded. Try again." : {
+
+    },
+    "Libraries shared with it" : {
+
+    },
+    "Libraries they could use" : {
+
+    },
+    "Libraries this organization owns, and libraries the server shares with it." : {
+
+    },
+    "Library %lld" : {
+
+    },
+    "Library access check" : {
+
+    },
+    "Library given back" : {
+
+    },
+    "Library paused. Members can't use it until you restore it." : {
+
+    },
+    "Library restored" : {
+
+    },
+    "Link copied" : {
+
+    },
+    "Loading…" : {
+
+    },
+    "matching “%@”" : {
+
+    },
+    "Media requests" : {
+
+    },
+    "Member added" : {
+
+    },
+    "Member reactivated in a bulk change" : {
+
+    },
+    "Member suspended in a bulk change" : {
+
+    },
+    "Member suspended or reactivated" : {
+
+    },
+    "Member's role changed" : {
+
+    },
+    "Members" : {
+
+    },
+    "Members can use it" : {
+
+    },
+    "Members can use this library again, within their own plan and profile limits." : {
+
+    },
+    "Members can't use this library until you restore it. No files are deleted." : {
+
+    },
+    "Members lose this library for good. Only a platform administrator can share it again. No files are deleted." : {
+
+    },
+    "Members, libraries and who owns this organization" : {
+
+    },
+    "Membership" : {
+
+    },
+    "Membership changed" : {
+
+    },
+    "Membership ID" : {
+
+    },
+    "Membership reactivated" : {
+
+    },
+    "Membership status" : {
+
+    },
+    "Membership suspended" : {
+
+    },
+    "Most your members can reach" : {
+
+    },
+    "Move %@ to an access group" : {
+
+    },
+    "Move their profiles to %@?" : {
+
+    },
+    "Move to access group" : {
+
+    },
+    "Name, email or profile" : {
+
+    },
+    "Needs permission to edit intro and credits markers" : {
+
+    },
+    "Needs permission to edit metadata" : {
+
+    },
+    "New group" : {
+
+    },
+    "New group name" : {
+
+    },
+    "Newly created accounts are placed in this group automatically. Existing users are never moved." : {
+
+    },
+    "Newly created accounts are placed in this group automatically. To change this, make another group the default." : {
+
+    },
+    "No" : {
+
+    },
+    "No access" : {
+
+    },
+    "No access groups yet" : {
+
+    },
+    "No changes to this membership among the latest %lld on the organization." : {
+
+    },
+    "No cohorts yet. One appears when you first put people on a plan." : {
+
+    },
+    "No downloadable copy is ready yet" : {
+
+    },
+    "No email was sent. Deliver this one-time link yourself. It works once and expires in 7 days; resending makes a fresh link and ends this one." : {
+
+    },
+    "No invitations yet. Invite someone to get started." : {
+
+    },
+    "No limit" : {
+
+    },
+    "no longer exists" : {
+
+    },
+    "No profiles" : {
+
+    },
+    "No reason recorded" : {
+
+    },
+    "Nobody matches these filters" : {
+
+    },
+    "Nobody was changed" : {
+
+    },
+    "Nobody yet" : {
+
+    },
+    "None" : {
+
+    },
+    "None recorded" : {
+
+    },
+    "Not changed" : {
+
+    },
+    "Nothing has been checked yet" : {
+
+    },
+    "Nothing has changed yet" : {
+
+    },
+    "Only administrators can do this" : {
+
+    },
+    "Only the household's main profile can do this" : {
+
+    },
+    "Only the libraries I choose" : {
+
+    },
+    "Opening organization…" : {
+
+    },
+    "Optional" : {
+
+    },
+    "Organization" : {
+
+    },
+    "Organization administrators can suspend or reactivate a membership and move a profile to an access group. Resetting a password, signing someone out and editing a profile aren't available to organization administrators; ask the server owner." : {
+
+    },
+    "Organization created" : {
+
+    },
+    "Organization default" : {
+
+    },
+    "Organization ID" : {
+
+    },
+    "Organization overview" : {
+
+    },
+    "Original quality" : {
+
+    },
+    "Overview" : {
+
+    },
+    "Owned by this organization" : {
+
+    },
+    "Owned libraries" : {
+
+    },
+    "Owner" : {
+
+    },
+    "Ownership transferred" : {
+
+    },
+    "Pause" : {
+
+    },
+    "Pause %@?" : {
+
+    },
+    "Pause for %@" : {
+
+    },
+    "Paused" : {
+
+    },
+    "Paused: members can't use it until it is restored" : {
+
+    },
+    "Pending" : {
+
+    },
+    "People" : {
+
+    },
+    "People couldn't be loaded. Try again." : {
+
+    },
+    "Permission check" : {
+
+    },
+    "Personal note (optional)" : {
+
+    },
+    "Plan applied" : {
+
+    },
+    "Plan or settings changed for an account" : {
+
+    },
+    "Platform" : {
+
+    },
+    "Play" : {
+
+    },
+    "Playback or download check" : {
+
+    },
+    "Plays video" : {
+
+    },
+    "Policy Cohorts" : {
+
+    },
+    "Policy Decisions" : {
+
+    },
+    "Profile" : {
+
+    },
+    "Profile %@" : {
+
+    },
+    "Profile moved to another access group" : {
+
+    },
+    "Profile moved to the access group" : {
+
+    },
+    "Profiles" : {
+
+    },
+    "Profiles and access groups" : {
+
+    },
+    "Profiles moved to an access group" : {
+
+    },
+    "Quality: %@" : {
+
+    },
+    "Reactivate" : {
+
+    },
+    "Reactivate %@?" : {
+
+    },
+    "Reactivate their memberships?" : {
+
+    },
+    "Reactivated" : {
+
+    },
+    "Reason code" : {
+
+    },
+    "Recent activity" : {
+
+    },
+    "Recent changes" : {
+
+    },
+    "Refused" : {
+
+    },
+    "Renamed" : {
+
+    },
+    "Resend with a fresh link" : {
+
+    },
+    "Restore" : {
+
+    },
+    "Restore %@?" : {
+
+    },
+    "Restore for %@" : {
+
+    },
+    "Revision %lld · %@" : {
+
+    },
+    "Revoke invitation" : {
+
+    },
+    "Revoke the invitation for %@? Their link will stop working immediately." : {
+
+    },
+    "Revoked" : {
+
+    },
+    "Rules checked" : {
+
+    },
+    "Save changes" : {
+
+    },
+    "Saving…" : {
+
+    },
+    "Screens at once" : {
+
+    },
+    "See why" : {
+
+    },
+    "Select %@" : {
+
+    },
+    "Select all %lld" : {
+
+    },
+    "Select people" : {
+
+    },
+    "Selecting…" : {
+
+    },
+    "Sensitive value hidden" : {
+
+    },
+    "Settings fingerprint" : {
+
+    },
+    "Settings revision" : {
+
+    },
+    "Shared by the server" : {
+
+    },
+    "Short name" : {
+
+    },
+    "Short name changed" : {
+
+    },
+    "Skipped" : {
+
+    },
+    "skipped so you keep your own admin access" : {
+
+    },
+    "Some not changed" : {
+
+    },
+    "Some people were changed" : {
+
+    },
+    "Someone else changed this just now. It has been reloaded; check it and try again." : {
+
+    },
+    "Sort people" : {
+
+    },
+    "Start playback" : {
+
+    },
+    "Started from cohort" : {
+
+    },
+    "Stopped" : {
+
+    },
+    "Streams: %lld" : {
+
+    },
+    "Streams: No limit" : {
+
+    },
+    "Suspend" : {
+
+    },
+    "Suspend %@?" : {
+
+    },
+    "Suspend their memberships?" : {
+
+    },
+    "Suspended" : {
+
+    },
+    "That invitation wasn't accepted. Check the email address and access group." : {
+
+    },
+    "That membership can't be suspended. The owner always keeps access." : {
+
+    },
+    "That selection expired. Select the people again." : {
+
+    },
+    "The account is disabled" : {
+
+    },
+    "The action isn't known" : {
+
+    },
+    "The change couldn't be confirmed. Check the list before trying again." : {
+
+    },
+    "The change couldn't be started. Nothing was changed; check the list before trying again." : {
+
+    },
+    "the default group" : {
+
+    },
+    "The default group can't be deleted. Make another group the default first." : {
+
+    },
+    "The group couldn't be deleted. Check the list before trying again." : {
+
+    },
+    "The group couldn't be saved. Check it before trying again." : {
+
+    },
+    "The invitation couldn't be confirmed. Check the list before sending again." : {
+
+    },
+    "The invitation couldn't be revoked" : {
+
+    },
+    "The library change couldn't be confirmed. Check its status and try again." : {
+
+    },
+    "The organization's activity couldn't be loaded, so recent changes can't be shown." : {
+
+    },
+    "The permission isn't known" : {
+
+    },
+    "The progress couldn't be checked. The change may still be running." : {
+
+    },
+    "The selection couldn't be made. Try again." : {
+
+    },
+    "The server refused that change. A group managed by a plan can only be changed there, and the default group can't be deleted." : {
+
+    },
+    "The title is in a library they can't use" : {
+
+    },
+    "Their settings don't allow converted downloads" : {
+
+    },
+    "Their settings don't allow downloads" : {
+
+    },
+    "them@example.com" : {
+
+    },
+    "There is nobody in this organization yet" : {
+
+    },
+    "These are the most this organization's members can see. Each person's plan, access group and profile can narrow it further." : {
+
+    },
+    "They will be able to use this organization again" : {
+
+    },
+    "They won't be able to use this organization until you reactivate them. Nothing is deleted." : {
+
+    },
+    "This changes %@ in %@ (%@). People who match later are not included." : {
+
+    },
+    "This changes the %@ you picked in %@, one after another" : {
+
+    },
+    "This check couldn't be loaded. Try again." : {
+
+    },
+    "This group has no profiles in %@. This can't be undone." : {
+
+    },
+    "This is taking a while. It keeps running on the server; open People again to see the result." : {
+
+    },
+    "this organization" : {
+
+    },
+    "This organization changed. It has been reloaded; try again." : {
+
+    },
+    "This organization couldn't be loaded. Try again." : {
+
+    },
+    "This organization has no libraries yet" : {
+
+    },
+    "This organization is suspended. Contact the server owner." : {
+
+    },
+    "This person couldn't be loaded. Try again." : {
+
+    },
+    "This person isn't in this organization any more" : {
+
+    },
+    "Transcoding" : {
+
+    },
+    "Try again" : {
+
+    },
+    "Up to 1080p" : {
+
+    },
+    "Up to 4K" : {
+
+    },
+    "Video conversion" : {
+
+    },
+    "Video conversion is switched off" : {
+
+    },
+    "Waiting to start" : {
+
+    },
+    "Watch live TV" : {
+
+    },
+    "What they asked for" : {
+
+    },
+    "What you can't do here" : {
+
+    },
+    "When" : {
+
+    },
+    "When Silo checks whether someone here may do something, it records the answer. Pick one to see why." : {
+
+    },
+    "Who" : {
+
+    },
+    "Why" : {
+
+    },
+    "Withdrawn" : {
+
+    },
+    "Yes" : {
+
+    },
+    "You" : {
+
+    },
+    "You administer more than one organization on %@" : {
+
+    },
+    "You don't have access to this organization" : {
+
+    },
+    "You no longer administer this organization" : {
+
+    },
+    "No account on this server uses that sign-in. Ask the server's owner for an invitation." : {
+
+    },
+    "An account with that email already exists. Sign in with its password instead." : {
+
+    },
+    "%@ isn't available right now. Try again later." : {
+
+    },
+    "The sign-in took too long or was interrupted. Try again." : {
+
+    },
+    "Sign-in didn't finish. Try again." : {
+
+    },
+    "The sign-in response didn't come from this server. Try again." : {
+
+    },
+    "Install or turn on a web browser to sign in with %@" : {
+
+    },
+    "Could not save this server on this device." : {
+
+    },
+    "Sign in with %@" : {
+
+    },
+    "Continue" : {
+
+    },
+    "Change server" : {
+
+    },
+    "Checking sign-in options…" : {
+
+    },
+    "%@: %@" : {
+
+    },
+    "Another command reached this stream first. Try again." : {
+
+    },
+    "Video: %@" : {
+
+    },
+    "Audio: %@" : {
+
+    },
+    "%@ of %@, %@ left" : {
+
+    },
+    "at %@" : {
+
+    },
+    "Remux" : {
+
+    },
+    "Transcode" : {
+
+    },
+    "Direct" : {
+
+    },
+    "Copy" : {
+
+    },
+    "HW %@" : {
+
+    },
+    "SW" : {
+
+    },
+    "HW/SW pending" : {
+
+    },
+    "HW/SW unknown" : {
+
+    },
+    "Audio transcode" : {
+
+    },
+    "HW Tone map" : {
+
+    },
+    "SW Tone map" : {
+
+    },
+    "Unknown source" : {
+
+    },
+    "Output → %@" : {
+
+    },
+    "Copied without re-encoding" : {
+
+    },
+    "Local" : {
+
+    },
+    "Remote" : {
+
+    },
+    "No video conversion" : {
+
+    },
+    "No audio conversion" : {
+
+    },
+    "Video" : {
+
+    },
+    "Audio" : {
+
+    },
+    "Audio track" : {
+
+    },
+    "Transcoder" : {
+
+    },
+    "Container" : {
+
+    },
+    "Source bitrate" : {
+
+    },
+    "Stream bitrate" : {
+
+    },
+    "Playing node" : {
+
+    },
+    "Client IP" : {
+
+    },
+    "Last update" : {
+
+    },
+    "Proxy" : {
+
+    },
+    "Node" : {
+
+    },
+    "Local server" : {
+
+    },
+    "Action in progress" : {
+
+    },
+    "Details shown" : {
+
+    },
+    "Details hidden" : {
+
+    },
+    "Shows the details" : {
+
+    },
+    "Hides the details" : {
+
+    },
+    "%@ / %@" : {
+
+    },
+    "%@ left" : {
+
+    },
+    "Stop playback" : {
+
+    },
+    "Message sent" : {
+
+    },
+    "Resume" : {
+
+    },
+    "Message" : {
+
+    },
+    "Terminate" : {
+
+    },
+    "Title (optional)" : {
+
+    },
+    "Message %@" : {
+
+    },
+    "No active streams" : {
+
+    },
+    "%@ current value" : {
+
+    },
+    "This setting changed on %@ after you opened it. Your edit is kept." : {
+
+    },
+    "The server did not allow this setting to be edited safely. Try again later." : {
+
+    },
+    "Some settings only take effect after the server restarts" : {
+
+    },
+    "This setting changed on the server after you opened it. Your edit is kept." : {
+
+    },
+    "Review current value" : {
+
+    },
+    "Current value" : {
+
+    },
+    "Keep my edit and continue" : {
+
+    },
+    "Last sample %@. The server has not refreshed it since." : {
+
+    },
+    "This sample is out of date" : {
+
+    },
+    "Account" : {
+
+    },
+    "Actions" : {
+
+    },
+    "The action didn't go through. Try again." : {
+
+    },
+    "Activity" : {
+
+    },
+    "Add" : {
+
+    },
+    "Add server" : {
+
+    },
+    "Add user" : {
+
+    },
+    "Admin login" : {
+
+    },
+    "Approve" : {
+
+    },
+    "Audio transcoding allowed" : {
+
+    },
+    "Audit" : {
+
+    },
+    "Cancel" : {
+
+    },
+    "Category" : {
+
+    },
+    "Client" : {
+
+    },
+    "Connect" : {
+
+    },
+    "Connection lost" : {
+
+    },
+    "The task couldn't be cancelled. Try again." : {
+
+    },
+    "The user couldn't be created. Try again." : {
+
+    },
+    "The user couldn't be deleted. Try again." : {
+
+    },
+    "Playback history couldn't be loaded. Try again." : {
+
+    },
+    "The audit log couldn't be loaded. Try again." : {
+
+    },
+    "More audit entries couldn't be loaded. Try again." : {
+
+    },
+    "More playback history couldn't be loaded. Try again." : {
+
+    },
+    "Scheduled tasks couldn't be loaded. Try again." : {
+
+    },
+    "Requests couldn't be loaded. Try again." : {
+
+    },
+    "Settings couldn't be loaded. Try again." : {
+
+    },
+    "Now playing couldn't be loaded. Try again." : {
+
+    },
+    "Users couldn't be loaded. Try again." : {
+
+    },
+    "The server couldn't be restarted. Try again." : {
+
+    },
+    "The task couldn't be started. Try again." : {
+
+    },
+    "The setting couldn't be saved. Try again" : {
+
+    },
+    "The user couldn't be updated. Try again." : {
+
+    },
+    "Decline" : {
+
+    },
+    "Delete user" : {
+
+    },
+    "Disabled" : {
+
+    },
+    "Edit quotas and permissions" : {
+
+    },
+    "Edit setting" : {
+
+    },
+    "Edit %@" : {
+
+    },
+    "Email" : {
+
+    },
+    "Filter" : {
+
+    },
+    "Filter by user ID" : {
+
+    },
+    "your-server.example.com" : {
+
+    },
+    "Last error" : {
+
+    },
+    "Method" : {
+
+    },
+    "Name" : {
+
+    },
+    "Off" : {
+
+    },
+    "On" : {
+
+    },
+    "Outcome" : {
+
+    },
+    "Password" : {
+
+    },
+    "Permissions" : {
+
+    },
+    "Playing" : {
+
+    },
+    "Progress" : {
+
+    },
+    "Provider" : {
+
+    },
+    "Quotas" : {
+
+    },
+    "Request" : {
+
+    },
+    "The server returned an error" : {
+
+    },
+    "Requests" : {
+
+    },
+    "Restart" : {
+
+    },
+    "Restart required" : {
+
+    },
+    "Restart server" : {
+
+    },
+    "Restart this server?" : {
+
+    },
+    "Role" : {
+
+    },
+    "Run every (minutes)" : {
+
+    },
+    "Run now" : {
+
+    },
+    "Run on server startup" : {
+
+    },
+    "Save schedule" : {
+
+    },
+    "Server" : {
+
+    },
+    "Servers" : {
+
+    },
+    "Settings" : {
+
+    },
+    "Started" : {
+
+    },
+    "State" : {
+
+    },
+    "Status" : {
+
+    },
+    "Stop" : {
+
+    },
+    "Streams" : {
+
+    },
+    "Task" : {
+
+    },
+    "End stream" : {
+
+    },
+    "This account doesn't have admin access on %@." : {
+
+    },
+    "This app manages real production media servers and can act as any of their users. Unlock to continue." : {
+
+    },
+    "Title" : {
+
+    },
+    "Transcoding allowed" : {
+
+    },
+    "Run schedule" : {
+
+    },
+    "\"Unknown\" means the server didn't report this permission for this user. Selecting Off or On sends that value; leaving it Unknown makes no change." : {
+
+    },
+    "Leave the interval blank to disable the recurring schedule. Startup and interval are the only trigger types this app can edit — other trigger types already configured on this task are preserved." : {
+
+    },
+    "Unknown" : {
+
+    },
+    "Unlimited" : {
+
+    },
+    "Unlock" : {
+
+    },
+    "Unlock Bloem Admin" : {
+
+    },
+    "User" : {
+
+    },
+    "Username" : {
+
+    },
+    "Users" : {
+
+    },
+    "Value" : {
+
+    },
+    "Your session on %@ has expired. Sign in again to continue." : {
+
+    },
+    "Delete %@? This cannot be undone." : {
+
+    },
+    "Decline the request for %@?" : {
+
+    },
+    "Cancel the request for %@? This cannot be undone." : {
+
+    },
+    "Reloads activity filtered to this user ID" : {
+
+    },
+    "Reloads the audit log filtered to this user ID" : {
+
+    },
+    "No Admin Access" : {
+
+    },
+    "Sign in was cancelled." : {
+
+    },
+    "Session changed before sign in completed." : {
+
+    },
+    "Could not reach %@." : {
+
+    },
+    "Dashboard" : {
+
+    },
+    "Total items" : {
+
+    },
+    "Total files" : {
+
+    },
+    "Total users" : {
+
+    },
+    "Movies" : {
+
+    },
+    "Shows" : {
+
+    },
+    "Total storage" : {
+
+    },
+    "Watch providers" : {
+
+    },
+    "No watch providers registered" : {
+
+    },
+    "Connected profiles" : {
+
+    },
+    "Enabled profiles" : {
+
+    },
+    "Sync runs (24h)" : {
+
+    },
+    "Sync errors (24h)" : {
+
+    },
+    "Last sync" : {
+
+    },
+    "CPU" : {
+
+    },
+    "Memory" : {
+
+    },
+    "Network" : {
+
+    },
+    "Server statistics couldn't be loaded. Try again." : {
+
+    },
+    "Logs" : {
+
+    },
+    "Level" : {
+
+    },
+    "All" : {
+
+    },
+    "Debug" : {
+
+    },
+    "Info" : {
+
+    },
+    "Warn" : {
+
+    },
+    "Error" : {
+
+    },
+    "Filters the log by severity level" : {
+
+    },
+    "Search messages" : {
+
+    },
+    "Reloads the log filtered to messages matching this text" : {
+
+    },
+    "No log entries" : {
+
+    },
+    "This server has no operational log entries" : {
+
+    },
+    "No log entries match the selected filters" : {
+
+    },
+    "· User %@" : {
+
+    },
+    "· %@" : {
+
+    },
+    "Logs couldn't be loaded. Try again." : {
+
+    },
+    "More log entries couldn't be loaded. Try again." : {
+
+    },
+    "Tenants" : {
+
+    },
+    "%@ · %@" : {
+
+    },
+    "Suspended: %@" : {
+
+    },
+    "No organizations" : {
+
+    },
+    "No organizations on this server" : {
+
+    },
+    "No members" : {
+
+    },
+    "This organization has no members" : {
+
+    },
+    "%lld / %lld slots" : {
+
+    },
+    "%lld slots used" : {
+
+    },
+    "0 / %lld slots" : {
+
+    },
+    "No slot data" : {
+
+    },
+    "1 transcode" : {
+
+    },
+    "%lld transcodes" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld transcode"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld transcodes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "No transcode limit set" : {
+
+    },
+    "Organizations couldn't be loaded. Try again." : {
+
+    },
+    "Members couldn't be loaded. Try again." : {
+
+    },
+    "Invitations" : {
+
+    },
+    "%@ · Expires %@" : {
+
+    },
+    "Revoke" : {
+
+    },
+    "Resend" : {
+
+    },
+    "Revoke the invitation to %@? This cannot be undone." : {
+
+    },
+    "Invite user" : {
+
+    },
+    "Note (optional)" : {
+
+    },
+    "Send" : {
+
+    },
+    "Invitation created" : {
+
+    },
+    "Invitation email sent" : {
+
+    },
+    "Invitation email not sent" : {
+
+    },
+    "The email may not have been delivered. Share the link yourself." : {
+
+    },
+    "Email delivery unconfirmed" : {
+
+    },
+    "Link invitation" : {
+
+    },
+    "Share link" : {
+
+    },
+    "This link is shown only once — the server doesn't store it in a retrievable form." : {
+
+    },
+    "No link is available and the email wasn't sent. Use Resend to try again." : {
+
+    },
+    "Invitations couldn't be loaded. Try again." : {
+
+    },
+    "The invitation couldn't be sent. Try again." : {
+
+    },
+    "The invitation couldn't be resent. Try again." : {
+
+    },
+    "The invitation couldn't be revoked. Try again." : {
+
+    },
+    "No invitations" : {
+
+    },
+    "Invite a new user by email" : {
+
+    },
+    "Done" : {
+
+    },
+    "The schedule couldn't be saved. Try again." : {
+
+    },
+    "The server did not allow this schedule to be edited safely. Try again later." : {
+
+    },
+    "This schedule changed on the server after you opened it. Your edit is kept." : {
+
+    },
+    "This schedule changed on %@ after you opened it. Your edit is kept." : {
+
+    },
+    "This task only runs when you start it, so it has no schedule" : {
+
+    },
+    "This task only runs when you start it" : {
+
+    },
+    "Startup and interval are the only trigger types this app can edit. Other triggers already set on this task are kept." : {
+
+    },
+    "Review current schedule" : {
+
+    },
+    "Current schedule" : {
+
+    },
+    "Not scheduled" : {
+
+    },
+    "On server startup" : {
+
+    },
+    "On an interval" : {
+
+    },
+    "Daily" : {
+
+    },
+    "Daily at %@" : {
+
+    },
+    "Weekly" : {
+
+    },
+    "Runs" : {
+
+    },
+    "Edit schedule" : {
+
+    },
+    "Schedule" : {
+
+    },
+    "Reason (optional)" : {
+
+    },
+    "This user changed on the server after you opened it. Your edit is kept." : {
+
+    },
+    "This user changed on %@ after you opened it. Your edit is kept." : {
+
+    },
+    "The server did not allow this user to be edited safely. Try again later." : {
+
+    },
+    "The server did not allow this user to be changed safely. Try again later." : {
+
+    },
+    "This user changed on the server before your change was saved. The list was reloaded; check it and try again." : {
+
+    },
+    "Review current values" : {
+
+    },
+    "Inherit" : {
+
+    },
+    "Revoked %lld sessions" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Revoked %lld session"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Revoked %lld sessions"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Profiles: %@" : {
+
+    },
+    "%@ · Last seen %@" : {
+
+    },
+    "Current" : {
+
+    },
+    "Unknown device" : {
+
+    },
+    "%@ current values" : {
+
+    },
+    "Current values" : {
+
+    },
+    "System" : {
+
+    },
+    "Now playing" : {
+
+    },
+    "Scheduled tasks" : {
+
+    },
+    "Organizations" : {
+
+    },
+    "Live streams and current playback sessions" : {
+
+    },
+    "Live sessions, content health, and server activity" : {
+
+    },
+    "Historical playback events across users and profiles" : {
+
+    },
+    "Server log stream and operational output" : {
+
+    },
+    "Review, approve, and decline media requests" : {
+
+    },
+    "Accounts, roles, profile settings, and access" : {
+
+    },
+    "Every organization on this server, and its members" : {
+
+    },
+    "Who changed what on this server, and when" : {
+
+    },
+    "Search admin sections" : {
+
+    },
+    "Close search" : {
+
+    },
+    "Clear search" : {
+
+    },
+    "Search" : {
+
+    },
+    "Admin sections" : {
+
+    },
+    "No matching admin sections" : {
+
+    },
+    "1 admin section" : {
+
+    },
+    "%lld admin sections" : {
+
+    },
+    "1 match" : {
+
+    },
+    "%lld matches" : {
+
+    },
+    "Open menu" : {
+
+    },
+    "Change server context from %@" : {
+
+    },
+    "All servers" : {
+
+    },
+    "Manage servers" : {
+
+    },
+    "App settings" : {
+
+    },
+    "Close menu" : {
+
+    },
+    "Navigation" : {
+
+    },
+    "Checking access" : {
+
+    },
+    "Sign in" : {
+
+    },
+    "Can't reach server" : {
+
+    },
+    "No servers" : {
+
+    },
+    "Add your first server to manage it here" : {
+
+    },
+    "View and manage every added server at once" : {
+
+    },
+    "No individual servers saved yet" : {
+
+    },
+    "Saved servers" : {
+
+    },
+    "App" : {
+
+    },
+    "Device unlock and other settings for this app" : {
+
+    },
+    "Back" : {
+
+    },
+    "Forget credentials for %@?" : {
+
+    },
+    "Remove %@?" : {
+
+    },
+    "Forget credentials" : {
+
+    },
+    "This removes the locally stored access and refresh tokens from this device. It does not revoke server-side sessions." : {
+
+    },
+    "Remove server" : {
+
+    },
+    "This removes the server and its stored sign-in from this device. You can add it again later." : {
+
+    },
+    "Signed in" : {
+
+    },
+    "Signed out" : {
+
+    },
+    "This server uses an insecure address. Remove it and add its HTTPS address." : {
+
+    },
+    "Rename" : {
+
+    },
+    "Saved data couldn't be updated" : {
+
+    },
+    "OK" : {
+
+    },
+    "Rename server" : {
+
+    },
+    "Server name" : {
+
+    },
+    "Device unlock" : {
+
+    },
+    "Always on" : {
+
+    },
+    "Security" : {
+
+    },
+    "Bloem Admin locks whenever you leave it and asks for Face ID, Touch ID or your device passcode when you come back. It cannot be turned off, because the app holds administrator access to your servers." : {
+
+    },
+    "Version" : {
+
+    },
+    "1h" : {
+
+    },
+    "1h ago" : {
+
+    },
+    "24h" : {
+
+    },
+    "24h ago" : {
+
+    },
+    "30d" : {
+
+    },
+    "30d ago" : {
+
+    },
+    "7d" : {
+
+    },
+    "7d ago" : {
+
+    },
+    "Active streams" : {
+
+    },
+    "Add a server to see its dashboard" : {
+
+    },
+    "Average" : {
+
+    },
+    "Busiest day" : {
+
+    },
+    "Busiest hour" : {
+
+    },
+    "Dashboard · All servers" : {
+
+    },
+    "Direct play" : {
+
+    },
+    "Direct stream" : {
+
+    },
+    "Egress" : {
+
+    },
+    "Egress now" : {
+
+    },
+    "Errors · 24h" : {
+
+    },
+    "Last 30 days" : {
+
+    },
+    "Last 7 days" : {
+
+    },
+    "Last hour" : {
+
+    },
+    "Latest" : {
+
+    },
+    "Loading live sessions…" : {
+
+    },
+    "Loading server health…" : {
+
+    },
+    "Lowest" : {
+
+    },
+    "Manage streams" : {
+
+    },
+    "Manage users" : {
+
+    },
+    "Most active profiles" : {
+
+    },
+    "No activity yet" : {
+
+    },
+    "No egress samples yet" : {
+
+    },
+    "No libraries configured" : {
+
+    },
+    "No recent activity" : {
+
+    },
+    "No sample" : {
+
+    },
+    "No stream samples yet" : {
+
+    },
+    "No users" : {
+
+    },
+    "Nodes" : {
+
+    },
+    "Not configured" : {
+
+    },
+    "Not signed in" : {
+
+    },
+    "Nothing played in the last 7 days" : {
+
+    },
+    "Nothing playing right now" : {
+
+    },
+    "Peak" : {
+
+    },
+    "Playback activity" : {
+
+    },
+    "Postgres" : {
+
+    },
+    "Profiles · 24h" : {
+
+    },
+    "Readings" : {
+
+    },
+    "Redis" : {
+
+    },
+    "Server health" : {
+
+    },
+    "Server health unavailable" : {
+
+    },
+    "Sessions appear here as soon as someone starts watching" : {
+
+    },
+    "Show chart" : {
+
+    },
+    "Show the last 24 hours" : {
+
+    },
+    "Show the last 30 days" : {
+
+    },
+    "Show the last 7 days" : {
+
+    },
+    "Show the last hour" : {
+
+    },
+    "Show values" : {
+
+    },
+    "Sign in again to include this server" : {
+
+    },
+    "Storage" : {
+
+    },
+    "The metrics sampler collects one sample a minute while the server runs." : {
+
+    },
+    "Top titles" : {
+
+    },
+    "Total" : {
+
+    },
+    "Unavailable" : {
+
+    },
+    "Unreachable" : {
+
+    },
+    "Uptime" : {
+
+    },
+    "dirty build" : {
+
+    },
+    "just now" : {
+
+    },
+    "node + server egress" : {
+
+    },
+    "now" : {
+
+    },
+    "the last 24 hours" : {
+
+    },
+    "the last 30 days" : {
+
+    },
+    "the last 7 days" : {
+
+    },
+    "the last hour" : {
+
+    },
+    "watched on this server" : {
+
+    },
+    "Sampled %@" : {
+
+    },
+    "Last sample %@" : {
+
+    },
+    "CPU %lld%%" : {
+
+    },
+    "Memory %@ / %@" : {
+
+    },
+    "Network %@/s ↓ / %@/s ↑" : {
+
+    },
+    "%lld%% played" : {
+
+    },
+    "%lld%% completed" : {
+
+    },
+    "%@ · Disabled" : {
+
+    },
+    "%@ Mbps" : {
+
+    },
+    "Show chart for %@" : {
+
+    },
+    "Show values for %@" : {
+
+    },
+    "No playback in %@" : {
+
+    },
+    "Busiest day is %@ with %@" : {
+
+    },
+    "Busiest hour starts at %@ with %@" : {
+
+    },
+    "Direct play %@, direct stream %@, transcode %@" : {
+
+    },
+    "Playback sessions per day over %@, by play method" : {
+
+    },
+    "Playback sessions per hour over %@, by play method" : {
+
+    },
+    "%@. %@ in total. %@. %@." : {
+
+    },
+    "Egress over %@, in megabits per second" : {
+
+    },
+    "Concurrent streams over %@" : {
+
+    },
+    "%@. Latest %@, peak %@, lowest %@." : {
+
+    },
+    "Latest %@ · Peak %@ · Lowest %@" : {
+
+    },
+    "Total %@" : {
+
+    },
+    "%lld · %@" : {
+
+    },
+    "%lld/%lld" : {
+
+    },
+    "%lld min ago" : {
+
+    },
+    "%lld h ago" : {
+
+    },
+    "%lld d ago" : {
+
+    },
+    "+%lld more active streams" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "+%lld more active stream"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "+%lld more active streams"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld sessions" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld session"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sessions"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld files" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld file"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld files"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld warnings" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld warning"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld warnings"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%lld plays · %@" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld play · %@"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld plays · %@"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "%@ · %lld paths" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ · %lld path"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%@ · %lld paths"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Back to users" : {
+
+    },
+    "Discard changes?" : {
+
+    },
+    "Discard" : {
+
+    },
+    "Keep editing" : {
+
+    },
+    "Your changes to this user's access and limits have not been saved" : {
+
+    },
+    "Loading user…" : {
+
+    },
+    "User didn't load" : {
+
+    },
+    "User not found" : {
+
+    },
+    "The account may have been deleted by another admin" : {
+
+    },
+    "Changes to this account are unavailable: the server's response arrived without an ETag, which saving requires. A reverse proxy that removes or rewrites the ETag header causes this." : {
+
+    },
+    "Disable %@?" : {
+
+    },
+    "Disable account" : {
+
+    },
+    "They can't sign in until you enable the account again. Their profiles, history and downloads are kept." : {
+
+    },
+    "Delete %@?" : {
+
+    },
+    "Delete account" : {
+
+    },
+    "This deletes the account, its profiles and its history. This cannot be undone. To keep them, disable the account instead." : {
+
+    },
+    "Temporary password" : {
+
+    },
+    "Server: %@" : {
+
+    },
+    "Joined %@" : {
+
+    },
+    "No recorded activity" : {
+
+    },
+    "This is the server owner. Only the owner can change this account." : {
+
+    },
+    "Only the server owner can change another admin account. You can view it." : {
+
+    },
+    "This account can't sign in. Its profiles and history are kept." : {
+
+    },
+    "Reset password" : {
+
+    },
+    "Set password" : {
+
+    },
+    "Enable account" : {
+
+    },
+    "Access & limits" : {
+
+    },
+    "Sign-in" : {
+
+    },
+    "Preferences" : {
+
+    },
+    "%@ can sign in with the new password and must change it at the next sign-in." : {
+
+    },
+    "%@ can sign in with the new password" : {
+
+    },
+    "Password sign-in" : {
+
+    },
+    "External sign-in" : {
+
+    },
+    "Effective libraries: Restricted to %lld" : {
+
+    },
+    "Effective libraries: Unrestricted" : {
+
+    },
+    "Effective permissions: %lld assigned" : {
+
+    },
+    "Effective permissions: None assigned" : {
+
+    },
+    "Admins don't use access groups. Unset values follow the server default." : {
+
+    },
+    "Loading groups and libraries…" : {
+
+    },
+    "This account won't see any library" : {
+
+    },
+    "Remove from account" : {
+
+    },
+    "%@: Remove from account" : {
+
+    },
+    "Inherit %@" : {
+
+    },
+    "This server did not return a version for this user, so the change was not sent." : {
+
+    },
+    "Saved" : {
+
+    },
+    "No group" : {
+
+    },
+    "Group #%@" : {
+
+    },
+    "unlimited streams" : {
+
+    },
+    "%lld streams" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld stream"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld streams"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "No libraries" : {
+
+    },
+    "Use the group's libraries" : {
+
+    },
+    "Use the server default" : {
+
+    },
+    "Choose for this account" : {
+
+    },
+    "Marker editing" : {
+
+    },
+    "Metadata curation" : {
+
+    },
+    "Intro, recap, credits, and preview markers" : {
+
+    },
+    "Edit, refresh, and rematch metadata" : {
+
+    },
+    "Watch channels and manage recordings. Independent of library access; group restrictions still apply." : {
+
+    },
+    "The %@ group allows this" : {
+
+    },
+    "Limits" : {
+
+    },
+    "Max streams" : {
+
+    },
+    "Max transcodes" : {
+
+    },
+    "Max profiles" : {
+
+    },
+    "Downloads allowed" : {
+
+    },
+    "Requests allowed" : {
+
+    },
+    "Transcode allowed" : {
+
+    },
+    "Audio transcode allowed" : {
+
+    },
+    "%@ can't sign in with a password now. Setting one turns password sign-in back on for this account. A connected sign-in provider keeps working." : {
+
+    },
+    "New password" : {
+
+    },
+    "The password needs at least 8 characters" : {
+
+    },
+    "The password can be at most 72 bytes" : {
+
+    },
+    "Require change at next sign-in" : {
+
+    },
+    "At least 8 characters, at most 72 bytes. Share it with %@ yourself." : {
+
+    },
+    "Set a password" : {
+
+    },
+    "Expires: %@" : {
+
+    },
+    "Send a one-time password reset link to this account's email address? This replaces any previous link." : {
+
+    },
+    "Password reset email is unavailable. Check the server's public URL and mail configuration, or use web administration." : {
+
+    },
+    "Send reset email" : {
+
+    },
+    "Reset password for %@" : {
+
+    },
+    "Close" : {
+
+    },
+    "Nothing played yet" : {
+
+    },
+    "Plays: %lld (%lld finished)" : {
+
+    },
+    "Watch time: %@" : {
+
+    },
+    "Last played %@" : {
+
+    },
+    "Libraries: %lld" : {
+
+    },
+    "Libraries: all" : {
+
+    },
+    "Max streams: %lld" : {
+
+    },
+    "Max transcodes: %lld" : {
+
+    },
+    "Max profiles: %lld" : {
+
+    },
+    "The password is temporary. They must choose a new one at their next sign-in." : {
+
+    },
+    "Sessions are not available on this server" : {
+
+    },
+    "Devices are not available on this server" : {
+
+    },
+    "Revoke this session?" : {
+
+    },
+    "The device using this session will be signed out immediately" : {
+
+    },
+    "Sign out of every device?" : {
+
+    },
+    "Revoke all sessions" : {
+
+    },
+    "Every device this user is signed in on will be signed out immediately. If this user is your own admin account, this will also sign YOU out." : {
+
+    },
+    "Sessions" : {
+
+    },
+    "No active sessions" : {
+
+    },
+    "Devices" : {
+
+    },
+    "No known devices" : {
+
+    },
+    "No playback yet" : {
+
+    },
+    "Load more" : {
+
+    },
+    "No sign-ins in the last 30 days" : {
+
+    },
+    "%lld downloads on %lld devices: %lld done, %lld in progress, %lld failed" : {
+
+    },
+    "No downloads" : {
+
+    },
+    "Access" : {
+
+    },
+    "Sessions & devices" : {
+
+    },
+    "this session" : {
+
+    },
+    "Created %@" : {
+
+    },
+    "Watch history" : {
+
+    },
+    "Completed" : {
+
+    },
+    "Partial" : {
+
+    },
+    "IP addresses" : {
+
+    },
+    "Loading settings…" : {
+
+    },
+    "You can view this account's settings but not change them" : {
+
+    },
+    "This account has no profiles with settings yet" : {
+
+    },
+    "Setting level: %@" : {
+
+    },
+    "Nothing is set here" : {
+
+    },
+    "%@ follows the app defaults" : {
+
+    },
+    "Everything here follows %@" : {
+
+    },
+    "Add a setting" : {
+
+    },
+    "Remove %@" : {
+
+    },
+    "View only" : {
+
+    },
+    "Set" : {
+
+    },
+    "Account-wide" : {
+
+    },
+    "All devices" : {
+
+    },
+    "%@ library" : {
+
+    },
+    "These apply to every profile on the account" : {
+
+    },
+    "These apply on every device %@ uses" : {
+
+    },
+    "These replace %@'s settings on this device only; everything else follows %@." : {
+
+    },
+    "These replace %@'s settings in these apps only; everything else follows %@." : {
+
+    },
+    "These replace %@'s settings in this library only; everything else follows %@." : {
+
+    },
+    "These replace %@'s settings for this series only; everything else follows %@." : {
+
+    },
+    "%@ (%lld)" : {
+
+    },
+    "Profile · %@" : {
+
+    },
+    "Use %@'s value?" : {
+
+    },
+    "Go back to the app default?" : {
+
+    },
+    "%@ goes back to %@'s setting. The change reaches the app the next time it syncs." : {
+
+    },
+    "%@ goes back to the app default. The change reaches the app the next time it syncs." : {
+
+    },
+    "Use %@'s" : {
+
+    },
+    "Use app default" : {
+
+    },
+    "Not set" : {
+
+    },
+    "Replaces %@: %@" : {
+
+    },
+    "Replaces the app default" : {
+
+    },
+    "Replaces app default: %@" : {
+
+    },
+    "Not in this version" : {
+
+    },
+    "Enter a whole number" : {
+
+    },
+    "Enter a number from %@ to %@" : {
+
+    },
+    "Opens the user page" : {
+
+    },
+    "Enabled" : {
+
+    },
+    "This section couldn't be loaded. Try again." : {
+
+    },
+    "This user's settings couldn't be loaded. Try again." : {
+
+    },
+    "This setting couldn't be saved. Try again." : {
+
+    },
+    "%lld h %lld min" : {
+
+    },
+    "%lld min" : {
+
+    },
+    "%lld s" : {
+
+    },
+    "The result couldn't be confirmed. Check delivery before issuing another reset link." : {
+
+    },
+    "This user couldn't be loaded. Try again." : {
+
+    },
+    "This user changed since it was loaded. Review it and try again." : {
+
+    },
+    "Sign-ins couldn't be loaded. Try again." : {
+
+    },
+    "Devices couldn't be loaded. Try again." : {
+
+    },
+    "That sign-in couldn't be ended. Try again." : {
+
+    },
+    "The sign-ins couldn't be ended. Try again." : {
+
+    },
+    "%@ group doesn't allow this" : {
+
+    },
+    "Set on this account; has no effect under %@" : {
+
+    },
+    "%lld requests · last %@" : {
+
+    },
+    "%@ apps" : {
+
+    },
+    "Device %@" : {
+
+    },
+    "Library #%@" : {
+
+    },
+    "Series %@" : {
+
+    },
+    "Needs approval" : {
+
+    },
+    "In progress" : {
+
+    },
+    "Nothing is waiting for approval" : {
+
+    },
+    "Nothing is on its way to the library" : {
+
+    },
+    "No request has failed" : {
+
+    },
+    "No request has finished yet" : {
+
+    },
+    "Cancel request" : {
+
+    },
+    "Approved" : {
+
+    },
+    "Processing" : {
+
+    },
+    "Partially available" : {
+
+    },
+    "Available" : {
+
+    },
+    "Declined" : {
+
+    },
+    "Series" : {
+
+    },
+    "Movie" : {
+
+    },
+    "Season %@" : {
+
+    },
+    "Seasons %@" : {
+
+    },
+    "Unknown account" : {
+
+    },
+    "User %@" : {
+
+    },
+    "Queued" : {
+
+    },
+    "Downloading" : {
+
+    },
+    "Requested" : {
+
+    },
+    "Unknown server" : {
+
+    },
+    "Waiting to download" : {
+
+    },
+    "Download paused" : {
+
+    },
+    "Download stalled" : {
+
+    },
+    "Importing" : {
+
+    },
+    "Import blocked" : {
+
+    },
+    "Sent to the server" : {
+
+    },
+    "Downloaded" : {
+
+    },
+    "In the library" : {
+
+    },
+    "Retried" : {
+
+    },
+    "Couldn't send yet" : {
+
+    },
+    "Decline request" : {
+
+    },
+    "\"%@\" will be marked declined. Add an optional note for the requester." : {
+
+    },
+    "Close request" : {
+
+    },
+    "\"%@\" failed. Closing it moves it to Done, and nothing more is sent for it. Add an optional note." : {
+
+    },
+    "\"%@\" will be withdrawn before anything is sent for it. Add an optional note." : {
+
+    },
+    "Not sent to a server" : {
+
+    },
+    "by %@" : {
+
+    },
+    "Shows the request's details" : {
+
+    },
+    "Show only this account's requests" : {
+
+    },
+    "via watchlist" : {
+
+    },
+    "Request views" : {
+
+    },
+    "Keep request" : {
+
+    },
+    "Search by title or TMDB ID" : {
+
+    },
+    "Media type" : {
+
+    },
+    "Show requests from every account" : {
+
+    },
+    "Requested by %@" : {
+
+    },
+    "Requests didn't load" : {
+
+    },
+    "No request in this view matches the filters" : {
+
+    },
+    "All clear" : {
+
+    },
+    "More requests couldn't be loaded. Try again." : {
+
+    },
+    "Requested by" : {
+
+    },
+    "Seasons" : {
+
+    },
+    "Whole series" : {
+
+    },
+    "TMDB ID" : {
+
+    },
+    "History" : {
+
+    },
+    "The history couldn't be loaded. Try again." : {
+
+    },
+    "No history yet" : {
+
+    },
+    "Requests · All servers" : {
+
+    },
+    "The queue couldn't be loaded. Try again." : {
+
+    },
+    "No matching requests" : {
+
+    },
+    "an unnamed device" : {
+
+    },
+    "Changes to this organization: its name and status, its members and their plans, and the help administrators gave (reset links, sign-outs, profile edits, stopped streams). Platform support is the server operator. Members' own sign-ins and playback are not listed here." : {
+
+    },
+    "By Platform support" : {
+
+    },
+    "Reason: %@" : {
+
+    },
+    "Add profile" : {
+
+    },
+    "Clear the PIN on %@?" : {
+
+    },
+    "Clear PIN" : {
+
+    },
+    "This is the household's main profile: anyone using the account can open it until a new PIN is set. They choose the new PIN themselves." : {
+
+    },
+    "The profile opens without a PIN until they choose a new one themselves." : {
+
+    },
+    "Remove profile" : {
+
+    },
+    "Rename…" : {
+
+    },
+    "Remove profile…" : {
+
+    },
+    "Change %@" : {
+
+    },
+    "Main profile" : {
+
+    },
+    "PIN set" : {
+
+    },
+    "This is your own account. Change your password and sign out in the app; nobody resets or signs themselves out here." : {
+
+    },
+    "Administrators help ordinary members. The organization's owner can also help its other administrators, and only the platform operator helps the owner. If the server refuses, it says why." : {
+
+    },
+    "Who you can help" : {
+
+    },
+    "Their sign-ins couldn't be loaded. Try again." : {
+
+    },
+    "Their devices couldn't be loaded. Try again." : {
+
+    },
+    "Support access to this organization has ended. To keep helping, open it again with a new reason." : {
+
+    },
+    "is protected from this change (an administrator, the owner, or yourself)" : {
+
+    },
+    "Password reset link issued" : {
+
+    },
+    "Signed out everywhere" : {
+
+    },
+    "Signed out of one session" : {
+
+    },
+    "Signed out of a device" : {
+
+    },
+    "Profile added" : {
+
+    },
+    "Profile renamed" : {
+
+    },
+    "Profile PIN cleared" : {
+
+    },
+    "Profile removed" : {
+
+    },
+    "Stream stopped" : {
+
+    },
+    "Message sent to a stream" : {
+
+    },
+    "Platform support opened this organization" : {
+
+    },
+    "Platform support closed its access" : {
+
+    },
+    "Membership change refused" : {
+
+    },
+    "Access group move refused" : {
+
+    },
+    "Password reset refused" : {
+
+    },
+    "Sign-out refused" : {
+
+    },
+    "Profile change refused" : {
+
+    },
+    "Stream action refused" : {
+
+    },
+    "Their membership isn't active (it's invited or suspended), so this can't be done." : {
+
+    },
+    "This account belongs to more than one organization, so it can't be changed from here." : {
+
+    },
+    "This person signs in through another provider and has no password to reset." : {
+
+    },
+    "This person has no email address to send a reset link to. Create a link to hand over instead." : {
+
+    },
+    "This server can't send email. Create a link to hand over instead." : {
+
+    },
+    "This server can't make reset links yet: it has no public address" : {
+
+    },
+    "Another of their profiles already has that name" : {
+
+    },
+    "The household's main profile can't be removed" : {
+
+    },
+    "They already have as many profiles as they're allowed" : {
+
+    },
+    "This player isn't connected, so it can't show a message" : {
+
+    },
+    "That message was already sent with different text. Write it again." : {
+
+    },
+    "The change took effect, but a connected service hasn't been told yet. Try again shortly to finish it." : {
+
+    },
+    "You can't do this to your own account. Change your own password or sign out in the app." : {
+
+    },
+    "This is a server operator's account. It can't be changed from an organization." : {
+
+    },
+    "This person is the organization's owner. Only the platform operator can help the owner." : {
+
+    },
+    "This person is an administrator. Only the organization's owner can help another administrator." : {
+
+    },
+    "This person is protected from this action" : {
+
+    },
+    "Too many support actions in a short time. Wait a few minutes and try again." : {
+
+    },
+    "Too many support actions in a short time. Try again in a minute." : {
+
+    },
+    "Too many support actions in a short time. Try again in %lld minutes." : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Too many support actions in a short time. Try again in %lld minute."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Too many support actions in a short time. Try again in %lld minutes."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "The reset link couldn't be confirmed. Issuing another one replaces it." : {
+
+    },
+    "The server didn't return a link. Create another one." : {
+
+    },
+    "The email may not have been sent. The link works anyway; send another, or create a link to hand over." : {
+
+    },
+    "A reset email is on its way to %@. The link works for 24 hours." : {
+
+    },
+    "The sign-out couldn't be confirmed. Check their sign-ins before trying again." : {
+
+    },
+    "Signed out everywhere: 1 session ended" : {
+
+    },
+    "Signed out everywhere: %lld sessions ended" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Signed out everywhere: %lld session ended"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Signed out everywhere: %lld sessions ended"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Signed out of that session" : {
+
+    },
+    "The sign-out couldn't be confirmed. Check their devices before trying again." : {
+
+    },
+    "Signed out of %@" : {
+
+    },
+    "The profile couldn't be confirmed. Check their profiles before trying again." : {
+
+    },
+    "Profile %@ added" : {
+
+    },
+    "The new name couldn't be confirmed. Check the profile before trying again." : {
+
+    },
+    "Profile renamed to %@" : {
+
+    },
+    "The PIN change couldn't be confirmed. Check the profile before trying again." : {
+
+    },
+    "PIN cleared on %@. They choose a new one on the profile." : {
+
+    },
+    "The removal couldn't be confirmed. Check their profiles before trying again." : {
+
+    },
+    "Profile %@ removed" : {
+
+    },
+    "Email a reset link" : {
+
+    },
+    "Create a reset link to hand over" : {
+
+    },
+    "They choose a new password themselves; you never see it. An emailed link works for 24 hours; a link you hand over works once, for 4 hours. A new link replaces any earlier one." : {
+
+    },
+    "Email a reset link to %@?" : {
+
+    },
+    "Create a reset link for %@?" : {
+
+    },
+    "Send email" : {
+
+    },
+    "Create link" : {
+
+    },
+    "Any earlier reset link stops working. They aren't signed out." : {
+
+    },
+    "You'll see the link once, to hand to them yourself. They also get an email saying a reset was issued. Any earlier link stops working." : {
+
+    },
+    "Give this link to %@ yourself. It works once, until %@. Anyone who has it can choose their password, so send it to them only. It isn't shown again." : {
+
+    },
+    "Reset link" : {
+
+    },
+    "Reset link ready" : {
+
+    },
+    "Not signed in anywhere" : {
+
+    },
+    "Last seen %@" : {
+
+    },
+    "Sign out of this session" : {
+
+    },
+    "Sign out of %@" : {
+
+    },
+    "Sign out everywhere" : {
+
+    },
+    "Signing out everywhere ends every session: they sign in again on each device. Their personal API keys keep working." : {
+
+    },
+    "Sign %@ out everywhere?" : {
+
+    },
+    "Every app they're signed in to asks them to sign in again" : {
+
+    },
+    "Account sign-in" : {
+
+    },
+    "No devices" : {
+
+    },
+    "Sign out of this device" : {
+
+    },
+    "Sign out of %@?" : {
+
+    },
+    "Its sessions end and the device is forgotten, with its settings. A stream already playing on it isn't stopped. Their other devices stay signed in." : {
+
+    },
+    "Profile name" : {
+
+    },
+    "Use at most %lld characters" : {
+
+    },
+    "They set a PIN on the profile themselves, if they want one" : {
+
+    },
+    "Same as their other profiles" : {
+
+    },
+    "Rename profile" : {
+
+    },
+    "The stream couldn't be stopped. Try again; stopping twice is safe." : {
+
+    },
+    "That stream had already been stopped" : {
+
+    },
+    "Stream stopped. The player wasn't told, so it may play what it already loaded." : {
+
+    },
+    "Write a message first" : {
+
+    },
+    "Wait for the last action on this stream to finish." : {
+
+    },
+    "The message couldn't be confirmed" : {
+
+    },
+    "Message sent to %@" : {
+
+    },
+    "Nothing playing" : {
+
+    },
+    "Nobody in this organization is watching anything right now" : {
+
+    },
+    "Who is watching, what, on which device, and whether it plays directly or is converted. Addresses, server names and routing belong to the server and aren't shown." : {
+
+    },
+    "Stop %@'s stream of %@?" : {
+
+    },
+    "Stop stream" : {
+
+    },
+    "Shown on %@" : {
+
+    },
+    "their player" : {
+
+    },
+    "End support access to %@?" : {
+
+    },
+    "End access" : {
+
+    },
+    "Its administrators see in Activity that you closed it. To open it again you'll state a new reason." : {
+
+    },
+    "Support access" : {
+
+    },
+    "Everything you change here is shown to the organization's administrators as Platform support." : {
+
+    },
+    "Ends within four hours" : {
+
+    },
+    "Ending now" : {
+
+    },
+    "Support access couldn't be ended. Try again." : {
+
+    },
+    "The organizations couldn't be loaded. Try again." : {
+
+    },
+    "This account can't open organizations for support" : {
+
+    },
+    "This organization can't be opened for support. Only the server Owner can open an active organization this way." : {
+
+    },
+    "Say why you're opening this organization, in 10 to 500 characters" : {
+
+    },
+    "The organization couldn't be opened" : {
+
+    },
+    "Open an organization you don't belong to, to help its administrator. Say why each time: the reason, and every change you make, is shown to the organization's administrators in Activity as Platform support. Access ends after four hours at most." : {
+
+    },
+    "No other organizations on this server" : {
+
+    },
+    "No organization matches" : {
+
+    },
+    "Organizations you belong to aren't listed: open them from the context menu." : {
+
+    },
+    "Search organizations" : {
+
+    },
+    "Support access open, %@ left" : {
+
+    },
+    "Support access open" : {
+
+    },
+    "Reason" : {
+
+    },
+    "Why are you opening %@?" : {
+
+    },
+    "%lld of 10 to 500 characters. %@'s administrators see this reason in Activity, with every change you make." : {
+
+    },
+    "Access ends after four hours at most. You can end it earlier from the banner at the top of the organization." : {
+
+    },
+    "Open for support" : {
+
+    },
+    "Open" : {
+
+    },
+    "No admin access" : {
+
+    },
+    "%@ couldn't be reached. Check the address and your connection." : {
+
+    },
+    "This account doesn't have admin access on %@" : {
+
+    },
+    "This server is not compatible with Bloem Admin" : {
+
+    },
+    "This server needs a newer version of Bloem Admin" : {
+
+    },
+    "This account needs administrator access" : {
+
+    },
+    "Could not reach that server" : {
+
+    },
+    "This server's sign-in options aren't available in this app" : {
+
+    },
+    "This account isn't allowed to sign in to this server" : {
+
+    },
+    "That sign-in is linked to a different account" : {
+
+    },
+    "This account is disabled" : {
+
+    },
+    "That doesn't look like a valid URL" : {
+
+    },
+    "That address isn't a Silo server" : {
+
+    },
+    "No matching pages" : {
+
+    },
+    "Pages" : {
+
+    },
+    "The server's name and public address, the proxies in front of it, and Redis" : {
+
+    },
+    "Background task schedules, runs, and run history" : {
+
+    },
+    "Open a customer's organization to help its administrator, with a reason they can see" : {
+
+    },
+    "Member" : {
+
+    },
+    "Idle" : {
+
+    },
+    "Running" : {
+
+    },
+    "Warning" : {
+
+    },
+    "The player is told to stop. They can start it again." : {
+
+    },
+    "Send message" : {
+
+    },
+    "Its watch history and collections are deleted, and anyone signed in to it is signed out. This can't be undone. A stream already playing on it isn't stopped; stop it on Now playing first." : {
+
+    },
+    "Your sign-in was not accepted. Try again, or sign in again from the server list." : {
+
+    },
+    "Group name" : {
+
+    },
+    "The server returned an incompatible response" : {
+
+    },
+    "No internet connection" : {
+
+    },
+    "Request timed out" : {
+
+    },
+    "Could not reach this server" : {
+
+    },
+    "Enter an interval in minutes" : {
+
+    },
+    "Enter a whole number of minutes" : {
+
+    },
+    "The interval must be greater than zero" : {
+
+    },
+    "Enter an interval of one year or less" : {
+
+    },
+    "This task has an interval trigger without a duration. Turn off Run on an interval to remove it." : {
+
+    },
+    "This task has an interval that this editor cannot safely represent. Turn off Run on an interval to remove it." : {
+
+    },
+    "This task has multiple interval triggers, which this editor cannot safely change. Turn off Run on an interval to remove them." : {
+
+    },
+    "Every minute" : {
+
+    },
+    "Every hour" : {
+
+    },
+    "Every day" : {
+
+    },
+    "No jobs" : {
+
+    },
+    "Scheduled tasks · All servers" : {
+
+    },
+    "Cancel task" : {
+
+    },
+    "Keep running" : {
+
+    },
+    "Run on an interval" : {
+
+    },
+    "No scheduled tasks" : {
+
+    },
+    "This server has no scheduled tasks" : {
+
+    },
+    "No activity" : {
+
+    },
+    "Playback history · All servers" : {
+
+    },
+    "No playback history" : {
+
+    },
+    "Playback history" : {
+
+    },
+    "Appearance" : {
+
+    },
+    "Users · All servers" : {
+
+    },
+    "No user accounts exist on this server" : {
+
+    },
+    "Live sessions unavailable. Showing the last reported data" : {
+
+    },
+    "Chart window" : {
+
+    },
+    "Now playing · All servers" : {
+
+    },
+    "No users are streaming from this server right now" : {
+
+    },
+    "HW tone map" : {
+
+    },
+    "SW tone map" : {
+
+    },
+    "The server closes the session now, even if the player does not stop. It cannot be resumed." : {
+
+    },
+    "Source" : {
+
+    },
+    "Playback" : {
+
+    },
+    "Unknown client" : {
+
+    },
+    "Message can't be empty" : {
+
+    },
+    "This client isn't currently connected, so it can't receive a message right now." : {
+
+    },
+    "The message wasn't sent. The player may be offline; try again." : {
+
+    },
+    "Could not load server settings" : {
+
+    },
+    "Settings · All servers" : {
+
+    },
+    "No audit entries" : {
+
+    },
+    "Audit · All servers" : {
+
+    },
+    "Monitor" : {
+
+    },
+    "Manage" : {
+
+    },
+    "Configure" : {
+
+    },
+    "Light" : {
+
+    },
+    "Dark" : {
+
+    },
+    "Couldn't pause %@. Try again." : {
+
+    },
+    "Couldn't resume %@. Try again." : {
+
+    },
+    "Couldn't stop %@. Try again." : {
+
+    },
+    "Couldn't end %@. Try again." : {
+
+    },
+    "Stop %@ for %@?" : {
+
+    },
+    "End %@'s stream of %@?" : {
+
+    },
+    "Every %@" : {
+
+    },
+    "%@ movies" : {
+
+    },
+    "%@ shows" : {
+
+    },
+    "%@ profiles in 24h" : {
+
+    },
+    "Live" : {
+
+    },
+    "Expanded" : {
+
+    },
+    "Collapsed" : {
+
+    },
+    "Hides this server's dashboard" : {
+
+    },
+    "Shows this server's dashboard" : {
+
+    },
+    "Settings changed on the server" : {
+
+    },
+    "Settings changed on %@" : {
+
+    },
+    "The server did not send a version for its settings, so this setting cannot be changed safely. Update the server, then try again" : {
+
+    },
+    "Saved %@" : {
+
+    },
+    "Saved %@. Restart the server to apply it" : {
+
+    },
+    "Use Current Value" : {
+
+    },
+    "Can't reach the server" : {
+
+    },
+    "Unexpected response" : {
+
+    },
+    "Server error %lld" : {
+
+    },
+    "Server error" : {
+
+    },
+    "Connecting" : {
+
+    },
+    "Reconnecting" : {
+
+    },
+    "Sign in to continue" : {
+
+    },
+    "Sign in again to restore administrator access" : {
+
+    },
+    "Live updates unavailable, sessions refresh every minute" : {
+
+    },
+    "Live updates could not be read, reconnecting and checking sessions" : {
+
+    },
+    "Connection lost, reconnecting and checking sessions" : {
+
+    },
+    "Live updates timed out, reconnecting and checking sessions" : {
+
+    },
+    "Live sessions unavailable, showing the last reported data" : {
+
+    },
+    "Members, libraries and recent changes at a glance" : {
+
+    },
+    "Everyone in this organization, their profiles and their plan" : {
+
+    },
+    "Who is watching right now, on what, and whether it plays directly or is converted" : {
+
+    },
+    "Groups of accounts that share the same settings" : {
+
+    },
+    "Groups that set what their profiles can do" : {
+
+    },
+    "Libraries this organization owns or has been given" : {
+
+    },
+    "Invite administrators and members to this organization" : {
+
+    },
+    "Why someone was allowed or refused something" : {
+
+    },
+    "Who changed what in this organization, and when" : {
+
+    },
+    "This server couldn't be saved on this device. Try again." : {
+
+    },
+    "Could not verify administrator access" : {
+
+    },
+    "Sign in was cancelled" : {
+
+    },
+    "Session changed before sign in completed" : {
+
+    },
+    "This server is not compatible with Bloem Admin." : {
+
+    },
+    "This server needs a newer version of Bloem Admin." : {
+
+    },
+    "This account needs administrator access." : {
+
+    },
+    "Could not reach that server." : {
+
+    },
+    "Install or turn on a web browser to sign in with %@." : {
+
+    },
+    "This server's sign-in options aren't available in this app." : {
+
+    },
+    "This account isn't allowed to sign in to this server." : {
+
+    },
+    "That sign-in is linked to a different account." : {
+
+    },
+    "This account is disabled." : {
+
+    },
+    "That doesn't look like a valid URL." : {
+
+    },
+    "All plays" : {
+
+    },
+    "%@ of %@" : {
+
+    },
+    "Stopped by the viewer" : {
+
+    },
+    "Ended by an administrator" : {
+
+    },
+    "Client stopped responding" : {
+
+    },
+    "Stopped by the server" : {
+
+    },
+    "Replaced by a new session" : {
+
+    },
+    "Everyone" : {
+
+    },
+    "Person" : {
+
+    },
+    "All profiles" : {
+
+    },
+    "Plays" : {
+
+    },
+    "No plays match these filters" : {
+
+    },
+    "This server has no playback history." : {
+
+    },
+    "Play details" : {
+
+    },
+    "Ended" : {
+
+    },
+    "Watched" : {
+
+    },
+    "Result" : {
+
+    },
+    "How it ended" : {
+
+    },
+    "Delivery" : {
+
+    },
+    "Play method" : {
+
+    },
+    "Playback session" : {
+
+    },
+    "FFmpeg logs" : {
+
+    },
+    "User: %@ · %@" : {
+
+    },
+    "Ended: %@" : {
+
+    },
+    "Watched: %@" : {
+
+    },
+    "Play method: %@" : {
+
+    },
+    "Result: Completed" : {
+
+    },
+    "Result: Partial" : {
+
+    },
+    "How it ended: %@" : {
+
+    },
+    "Client: %@" : {
+
+    },
+    "Client IP: %@" : {
+
+    },
+    "Playback session: %@" : {
+
+    },
+    "Copied" : {
+
+    },
+    "Share" : {
+
+    },
+    "Could not load the user list." : {
+
+    },
+    "Could not load the session summary." : {
+
+    },
+    "No audit entries match this person" : {
+
+    },
+    "Warn and error" : {
+
+    },
+    "Component" : {
+
+    },
+    "Choose component" : {
+
+    },
+    "Request ID" : {
+
+    },
+    "Log entry" : {
+
+    },
+    "Duration" : {
+
+    },
+    "Path" : {
+
+    },
+    "Session" : {
+
+    },
+    "Attributes" : {
+
+    },
+    "Attributes:" : {
+
+    },
+    "Logs for this playback session" : {
+
+    },
+    "Show all logs" : {
+
+    },
+    "Application logs" : {
+
+    },
+    "Audit entries" : {
+
+    },
+    "First seen" : {
+
+    },
+    "Last seen" : {
+
+    },
+    "FFmpeg lines only" : {
+
+    },
+    "%lld or more" : {
+
+    },
+    "Audit entry" : {
+
+    },
+    "Changes" : {
+
+    },
+    "Target" : {
+
+    },
+    "User agent" : {
+
+    },
+    "Time: %@" : {
+
+    },
+    "Status: %lld" : {
+
+    },
+    "Duration: %lld ms" : {
+
+    },
+    "HTTP request" : {
+
+    },
+    "API key" : {
+
+    },
+    "as %@ → %@" : {
+
+    },
+    "Failed with %lld" : {
+
+    },
+    "changed" : {
+
+    },
+    "set" : {
+
+    },
+    "cleared" : {
+
+    },
+    "not set" : {
+
+    },
+    "absent" : {
+
+    },
+    "all libraries" : {
+
+    },
+    "all assignable" : {
+
+    },
+    "unset" : {
+
+    },
+    "inherit" : {
+
+    },
+    "full access" : {
+
+    },
+    "No administrator requests have been recorded." : {
+
+    },
+    "Media libraries, paths, scanning, and catalog import." : {
+
+    },
+    "1 path" : {
+
+    },
+    "%lld paths" : {
+
+    },
+    "%@ · %@ · %@" : {
+
+    },
+    "Last scanned %@" : {
+
+    },
+    "Never scanned" : {
+
+    },
+    "Library %@" : {
+
+    },
+    "The scan found no media files" : {
+
+    },
+    "A library folder cannot be reached" : {
+
+    },
+    "Since %@" : {
+
+    },
+    "Scan: %@" : {
+
+    },
+    "Scan: %@, %lld scans" : {
+
+    },
+    "Scan: %@, %lld more queued" : {
+
+    },
+    "Last scan: %@" : {
+
+    },
+    "Last scan: %@, %@" : {
+
+    },
+    "New %lld · Updated %lld · Missing %lld · Errors %lld" : {
+
+    },
+    "Recent scans" : {
+
+    },
+    "No scans yet" : {
+
+    },
+    "Scan results are not available: %@" : {
+
+    },
+    "Autoscan" : {
+
+    },
+    "Updated" : {
+
+    },
+    "Manual" : {
+
+    },
+    "Scheduled" : {
+
+    },
+    "File change" : {
+
+    },
+    "Scan" : {
+
+    },
+    "Check the mount" : {
+
+    },
+    "Refresh metadata" : {
+
+    },
+    "Refresh missing metadata" : {
+
+    },
+    "Refresh all metadata" : {
+
+    },
+    "Cancel refresh" : {
+
+    },
+    "This server cannot start or stop scans" : {
+
+    },
+    "Stop scans" : {
+
+    },
+    "Keep scanning" : {
+
+    },
+    "Stop scans of %@?" : {
+
+    },
+    "This stops the scans of %@ that are queued or running. You can start a new scan at any time." : {
+
+    },
+    "Refresh all metadata for %@?" : {
+
+    },
+    "Every item in %@ is fetched again from its metadata providers. Large libraries can take hours. Locked fields and artwork stay as they are." : {
+
+    },
+    "Stopped the scan of %@" : {
+
+    },
+    "Stopped %lld scans of %@" : {
+
+    },
+    "No scans of %@ were queued or running" : {
+
+    },
+    "Checking the mount" : {
+
+    },
+    "The mount is reachable" : {
+
+    },
+    "The mount cannot be reached" : {
+
+    },
+    "The mount is reachable but looks empty" : {
+
+    },
+    "%@: not reachable" : {
+
+    },
+    "%@: not reachable, %@" : {
+
+    },
+    "%@: reachable but empty" : {
+
+    },
+    "Metadata refresh: %@" : {
+
+    },
+    "Last metadata refresh: %@" : {
+
+    },
+    "Last metadata refresh: %@, %@" : {
+
+    },
+    "Canceling" : {
+
+    },
+    "Canceled" : {
+
+    },
+    "items" : {
+
+    },
+    "%lld of %lld %@" : {
+
+    },
+    "%lld refreshed" : {
+
+    },
+    "%lld refreshed, %lld failed" : {
+
+    },
+    "Could not load libraries. Check the connection and try again." : {
+
+    },
+    "Could not scan %@: %@. Try again in a moment." : {
+
+    },
+    "Could not stop the scans of %@: %@. Try again." : {
+
+    },
+    "Could not check the mount of %@: %@. Try again." : {
+
+    },
+    "Could not refresh the metadata of %@: %@. Wait for the running refresh to finish, or try again." : {
+
+    },
+    "Could not cancel the metadata refresh of %@: %@. Try again." : {
+
+    },
+    "The server did not answer" : {
+
+    },
+    "The scan results could not be read" : {
+
+    },
+    "The metadata refreshes could not be read" : {
+
+    },
+    "%@ %@, took %@" : {
+
+    },
+    "%@ backup" : {
+
+    },
+    "%@ backup, %@, %@. It cannot be restored after it is deleted" : {
+
+    },
+    "%@ of %@ GB" : {
+
+    },
+    "%@ of %@ Mbps" : {
+
+    },
+    "%@, %@" : {
+
+    },
+    "%@, took %@" : {
+
+    },
+    "%lld %@, no limit" : {
+
+    },
+    "%lld days" : {
+
+    },
+    "%lld h" : {
+
+    },
+    "%lld hours" : {
+
+    },
+    "%lld min %lld s" : {
+
+    },
+    "%lld minutes" : {
+
+    },
+    "%lld ms" : {
+
+    },
+    "%lld of %lld" : {
+
+    },
+    "%lld seconds" : {
+
+    },
+    "%lld%% used" : {
+
+    },
+    ", stops after %@" : {
+
+    },
+    "1 day" : {
+
+    },
+    "1 hour" : {
+
+    },
+    "1 minute" : {
+
+    },
+    "1 second" : {
+
+    },
+    "A backup is already running" : {
+
+    },
+    "A backup is being deleted" : {
+
+    },
+    "A backup upload is running" : {
+
+    },
+    "A restore is running" : {
+
+    },
+    "Add daily time" : {
+
+    },
+    "Add weekly time" : {
+
+    },
+    "Another backup task is running" : {
+
+    },
+    "Anything that depends on this plugin stops working until you turn it on again" : {
+
+    },
+    "Back up now" : {
+
+    },
+    "Backup restore" : {
+
+    },
+    "Backup running, %lld%%" : {
+
+    },
+    "Backup schedule" : {
+
+    },
+    "Backup time" : {
+
+    },
+    "Backups" : {
+
+    },
+    "Backups · All servers" : {
+
+    },
+    "Before restore" : {
+
+    },
+    "Before upgrade" : {
+
+    },
+    "Cancel %@? The run may have already changed server data" : {
+
+    },
+    "Cancel run" : {
+
+    },
+    "Capacity" : {
+
+    },
+    "Capacity, at the limit" : {
+
+    },
+    "Catalog export" : {
+
+    },
+    "Catalog import" : {
+
+    },
+    "Check now" : {
+
+    },
+    "Checked %@" : {
+
+    },
+    "Choose a time of day." : {
+
+    },
+    "Complete" : {
+
+    },
+    "Complete with warnings" : {
+
+    },
+    "Confirm the encryption key on the web before backing up" : {
+
+    },
+    "Copies kept" : {
+
+    },
+    "Could not check this node." : {
+
+    },
+    "Could not delete this backup." : {
+
+    },
+    "Could not disable this node." : {
+
+    },
+    "Could not drain this node." : {
+
+    },
+    "Could not enable this node." : {
+
+    },
+    "Could not load backups." : {
+
+    },
+    "Could not load job history." : {
+
+    },
+    "Could not load more. Check the connection and try again." : {
+
+    },
+    "Could not load nodes." : {
+
+    },
+    "Could not load plugins." : {
+
+    },
+    "Could not load the backup settings." : {
+
+    },
+    "Could not load this task's history." : {
+
+    },
+    "Could not restart this plugin." : {
+
+    },
+    "Could not resume this node." : {
+
+    },
+    "Could not save the backup settings." : {
+
+    },
+    "Could not start the backup." : {
+
+    },
+    "Could not turn this plugin off." : {
+
+    },
+    "Could not turn this plugin on." : {
+
+    },
+    "Could not update this plugin." : {
+
+    },
+    "Daily and weekly times" : {
+
+    },
+    "Day" : {
+
+    },
+    "Delete backup" : {
+
+    },
+    "Delete this backup?" : {
+
+    },
+    "Deleting a backup, %lld%%" : {
+
+    },
+    "Disable" : {
+
+    },
+    "Disk" : {
+
+    },
+    "Disk, nearly full" : {
+
+    },
+    "Drain" : {
+
+    },
+    "Drain %@?" : {
+
+    },
+    "Drain requested" : {
+
+    },
+    "Drain requested, but the node did not answer its last health check. New work stays off it" : {
+
+    },
+    "Drained" : {
+
+    },
+    "Drained, no work left" : {
+
+    },
+    "Drained, safe to stop" : {
+
+    },
+    "Draining" : {
+
+    },
+    "Draining, %lld jobs still running" : {
+
+    },
+    "Draining, 1 job still running" : {
+
+    },
+    "Draining, not answering" : {
+
+    },
+    "Earlier changes were saved." : {
+
+    },
+    "Enable" : {
+
+    },
+    "Enable %@?" : {
+
+    },
+    "Enter a whole number of minutes." : {
+
+    },
+    "Enter an interval in minutes." : {
+
+    },
+    "Enter an interval of one year or less." : {
+
+    },
+    "Enter the longest run in minutes, or leave it empty for no limit." : {
+
+    },
+    "Every %@ at %@" : {
+
+    },
+    "Every %lld days" : {
+
+    },
+    "Every %lld hours" : {
+
+    },
+    "Every %lld seconds" : {
+
+    },
+    "Every day at %@" : {
+
+    },
+    "Every second" : {
+
+    },
+    "Every week" : {
+
+    },
+    "Failed steps: %@" : {
+
+    },
+    "Finished %@" : {
+
+    },
+    "Healthy" : {
+
+    },
+    "Image cache cleanup" : {
+
+    },
+    "In %@ Mbps, out %@ Mbps" : {
+
+    },
+    "Incomplete" : {
+
+    },
+    "Item refresh" : {
+
+    },
+    "Job history" : {
+
+    },
+    "Keep as is" : {
+
+    },
+    "Keep backup" : {
+
+    },
+    "Last run" : {
+
+    },
+    "Last run failed %@" : {
+
+    },
+    "Last run finished with warnings %@" : {
+
+    },
+    "Last run was interrupted %@" : {
+
+    },
+    "Last successful backup %@" : {
+
+    },
+    "Library deletion" : {
+
+    },
+    "Library refresh" : {
+
+    },
+    "Library refreshes, restores and exports appear here after they run" : {
+
+    },
+    "Longest run (minutes)" : {
+
+    },
+    "Missing: %@" : {
+
+    },
+    "Needs attention" : {
+
+    },
+    "Needs setup" : {
+
+    },
+    "Never checked" : {
+
+    },
+    "Never run" : {
+
+    },
+    "New work goes to other nodes. Sessions already here keep playing until they end" : {
+
+    },
+    "New work stops going to this node. Sessions already on it keep playing until they end" : {
+
+    },
+    "Next backup in %lld d" : {
+
+    },
+    "Next backup in %lld h" : {
+
+    },
+    "Next backup in %lld min" : {
+
+    },
+    "Next backup in under a minute" : {
+
+    },
+    "Next backup time is not known yet" : {
+
+    },
+    "Next run" : {
+
+    },
+    "Next run in %lld d" : {
+
+    },
+    "Next run in %lld h" : {
+
+    },
+    "Next run in %lld min" : {
+
+    },
+    "Next run in under a minute" : {
+
+    },
+    "Nightly" : {
+
+    },
+    "Nightly backups" : {
+
+    },
+    "Nightly backups are off" : {
+
+    },
+    "Nightly backups of the database and uploaded files, and how to restore them." : {
+
+    },
+    "No background jobs" : {
+
+    },
+    "No backup information" : {
+
+    },
+    "No installed plugins match" : {
+
+    },
+    "No nodes" : {
+
+    },
+    "No plugins installed" : {
+
+    },
+    "No resource sample yet" : {
+
+    },
+    "No saved backups" : {
+
+    },
+    "No sessions or jobs are left on this node. Resume it to take new work again" : {
+
+    },
+    "No successful backup yet" : {
+
+    },
+    "Nodes · All servers" : {
+
+    },
+    "Opens Nodes" : {
+
+    },
+    "Overdue" : {
+
+    },
+    "Plugin catalog, repositories, installs, and plugin configuration." : {
+
+    },
+    "Plugins" : {
+
+    },
+    "Plugins · All servers" : {
+
+    },
+    "Proxy node" : {
+
+    },
+    "Queued %@" : {
+
+    },
+    "Recent runs" : {
+
+    },
+    "Reload current values" : {
+
+    },
+    "Remove time" : {
+
+    },
+    "Repeats" : {
+
+    },
+    "Restart %@?" : {
+
+    },
+    "Restarting (%lld)" : {
+
+    },
+    "Restore running, %lld%%" : {
+
+    },
+    "Resume %@?" : {
+
+    },
+    "Run is available when the task is idle" : {
+
+    },
+    "Run on an Interval" : {
+
+    },
+    "Running, %@" : {
+
+    },
+    "Search installed plugins" : {
+
+    },
+    "Show" : {
+
+    },
+    "Started %@" : {
+
+    },
+    "Starting" : {
+
+    },
+    "Stopping" : {
+
+    },
+    "Storage transition" : {
+
+    },
+    "Stream nodes, remote worker status, and where playback work runs." : {
+
+    },
+    "Template bundle apply" : {
+
+    },
+    "The backup destination cannot be reached" : {
+
+    },
+    "The backup time is set on the Backups page" : {
+
+    },
+    "The encryption key has not been confirmed. Confirm it on the web" : {
+
+    },
+    "The interval must be greater than zero." : {
+
+    },
+    "The last resource sample is out of date" : {
+
+    },
+    "The node is disabled. It stays out of new placement when it is enabled again until it is resumed" : {
+
+    },
+    "The node takes new work again" : {
+
+    },
+    "The node takes no new work. A node that was told to stop exits now" : {
+
+    },
+    "The node takes no new work. A node that was told to stop exits when its sessions end or its drain timeout passes" : {
+
+    },
+    "The plugin restarts on the new version. If the update fails, it stays on version %@" : {
+
+    },
+    "The plugin's process restarts. Requests to it fail for a moment" : {
+
+    },
+    "The release signature did not check out" : {
+
+    },
+    "The server did not send a version for its settings, so backup settings cannot be changed safely. Update the server, then try again" : {
+
+    },
+    "The server did not send a version for its settings. Earlier changes were saved. Reload the values to continue" : {
+
+    },
+    "The server starts using this node again" : {
+
+    },
+    "The server starts using this plugin again" : {
+
+    },
+    "The server stops using this node. Sessions on it may be cut off" : {
+
+    },
+    "These settings changed on the server after you opened them. Reload the current values, then make your change again." : {
+
+    },
+    "This node has no saved configuration version, so it cannot be changed from here. Change it on the web." : {
+
+    },
+    "This node was changed somewhere else. Reload the page and try again." : {
+
+    },
+    "This server has no nodes" : {
+
+    },
+    "This server has no scheduled or running tasks" : {
+
+    },
+    "This task has an interval that this editor cannot safely represent. Turn off Run on an Interval to remove it." : {
+
+    },
+    "This task has an interval trigger without a duration. Turn off Run on an Interval to remove it." : {
+
+    },
+    "This task has multiple interval triggers, which this editor cannot safely change. Turn off Run on an Interval to remove them." : {
+
+    },
+    "This task has not run yet" : {
+
+    },
+    "Time" : {
+
+    },
+    "Times follow the server's clock, not this device's" : {
+
+    },
+    "To install plugins or change their settings, use the web admin" : {
+
+    },
+    "To restore a backup, use the web admin" : {
+
+    },
+    "Transcode node" : {
+
+    },
+    "Turn off" : {
+
+    },
+    "Turn off %@?" : {
+
+    },
+    "Turn on" : {
+
+    },
+    "Turn on %@?" : {
+
+    },
+    "Unhealthy" : {
+
+    },
+    "Unreadable" : {
+
+    },
+    "Unverified" : {
+
+    },
+    "Update" : {
+
+    },
+    "Update %@ to %@?" : {
+
+    },
+    "Update available" : {
+
+    },
+    "Update to %@" : {
+
+    },
+    "Update to %@ available" : {
+
+    },
+    "Update to %@ failed: %@" : {
+
+    },
+    "Updates paused" : {
+
+    },
+    "Upload running, %lld%%" : {
+
+    },
+    "Version %@" : {
+
+    },
+    "When the server starts" : {
+
+    },
+    "Working, %lld%%" : {
+
+    },
+    "streams" : {
+
+    },
+    "transcodes" : {
+
+    },
+    "%" : {
+
+    },
+    "0 means no limit" : {
+
+    },
+    "0 uses the built-in default of 2" : {
+
+    },
+    "587 for STARTTLS (typical), 465 for implicit TLS" : {
+
+    },
+    "A first sign-in connects to the regular account with the same email, when the provider says the email is verified. Whoever controls that email at the provider takes over the account, so turn this on only if the provider verifies every email" : {
+
+    },
+    "A restart is already in progress" : {
+
+    },
+    "API server" : {
+
+    },
+    "Above this disk fill, cached files at that location are deleted early, whatever the budget" : {
+
+    },
+    "Adds Forgot password to the sign-in page, so people can get a reset link by email. Needs email and the public URL" : {
+
+    },
+    "All downloads on this server combined. 0 means no limit" : {
+
+    },
+    "Allow 4K transcoding" : {
+
+    },
+    "Allow HEVC encoding" : {
+
+    },
+    "Allow downloads" : {
+
+    },
+    "Allow password sign-in" : {
+
+    },
+    "Allow requests" : {
+
+    },
+    "Allows the CPU to convert HDR video to SDR when transcoding. This can be very CPU-intensive" : {
+
+    },
+    "Allows validated local or remote GPU executors to convert HDR video to SDR when transcoding" : {
+
+    },
+    "Also request a 4K version of every title" : {
+
+    },
+    "An admin approves" : {
+
+    },
+    "Android push (FCM)" : {
+
+    },
+    "Anyone with a valid invite code can create an account" : {
+
+    },
+    "Anything past this is skipped for that batch" : {
+
+    },
+    "Apple push (APNs)" : {
+
+    },
+    "Applies after a restart" : {
+
+    },
+    "Applies to this server and to every node without its own budget. 0 means unlimited" : {
+
+    },
+    "Approval" : {
+
+    },
+    "Approve automatically" : {
+
+    },
+    "Apps test a device's connection only when the server has no current reading for it. Off, viewers can still run Test speed in their own settings" : {
+
+    },
+    "Apps that reach this server over the overlay network lose the connection until it is connected again" : {
+
+    },
+    "Auto" : {
+
+    },
+    "Auto picks the best device. If startup fails, it keeps GPU encoding with CPU decoding before falling back to software" : {
+
+    },
+    "Automatic speed tests" : {
+
+    },
+    "Batch window" : {
+
+    },
+    "Silo apps on the same network list this server when adding one, so nobody has to type its address. Needs a network that passes multicast (Docker host networking, not the default bridge)" : {
+
+    },
+    "Silo passwords and signups, single sign-on, and network sign-in" : {
+
+    },
+    "Silo sends invitations, password resets, and notification emails through it" : {
+
+    },
+    "Browser push to subscribed devices" : {
+
+    },
+    "Buffer ahead" : {
+
+    },
+    "Check connection" : {
+
+    },
+    "Checks the values above, saved or not, from the server" : {
+
+    },
+    "Clear" : {
+
+    },
+    "Comma-separated proxy ranges; empty keeps the private defaults" : {
+
+    },
+    "Connected" : {
+
+    },
+    "Connection URL" : {
+
+    },
+    "Connection speed tests" : {
+
+    },
+    "Converts video the device can't play and offers lower qualities. Off, every download keeps the original video, even where the device can't play it" : {
+
+    },
+    "Could not change the connection. Check your connection and try again" : {
+
+    },
+    "Could not confirm the restart. Check the server status or restart it yourself" : {
+
+    },
+    "Could not load server settings." : {
+
+    },
+    "Could not load settings." : {
+
+    },
+    "Could not load the request settings." : {
+
+    },
+    "Could not load the server channels." : {
+
+    },
+    "Could not load the sign-in providers." : {
+
+    },
+    "Could not read the network access providers." : {
+
+    },
+    "Could not read this provider's status." : {
+
+    },
+    "Could not read whether this is set. You can still enter a new value" : {
+
+    },
+    "Could not run the test" : {
+
+    },
+    "Could not save settings. Check your connection and try again" : {
+
+    },
+    "Could not save the request settings. Check your connection and try again" : {
+
+    },
+    "Counted per user, alongside the per-user bandwidth cap" : {
+
+    },
+    "Daily summary hour" : {
+
+    },
+    "Daily summary or a message per episode, for people who opt in" : {
+
+    },
+    "Database" : {
+
+    },
+    "Database number" : {
+
+    },
+    "Default storage budget per location" : {
+
+    },
+    "Delete log entries older than" : {
+
+    },
+    "Delete permission records older than" : {
+
+    },
+    "Delivery channels" : {
+
+    },
+    "Delivery channels, server channels, and how new content becomes notifications" : {
+
+    },
+    "Detect credits" : {
+
+    },
+    "Detect intros" : {
+
+    },
+    "Detect on this server" : {
+
+    },
+    "Direct messages from your Discord bot to linked accounts" : {
+
+    },
+    "Discard all changes" : {
+
+    },
+    "Discard changes" : {
+
+    },
+    "Discard your changes?" : {
+
+    },
+    "Disconnect" : {
+
+    },
+    "Disconnect this host?" : {
+
+    },
+    "Disconnected" : {
+
+    },
+    "Discord" : {
+
+    },
+    "Disk ceiling" : {
+
+    },
+    "Downloads at once per user" : {
+
+    },
+    "Downloads per period" : {
+
+    },
+    "Drops log lines starting with any of these words" : {
+
+    },
+    "Encryption" : {
+
+    },
+    "Every stored setting has a page" : {
+
+    },
+    "Files prepared at once" : {
+
+    },
+    "Finds each episode's opening from embedded chapters, or by comparing the start of episodes in a season" : {
+
+    },
+    "Finds end credits from embedded chapters, or by reading the end of each episode and movie. Uses more CPU than intro detection" : {
+
+    },
+    "From address" : {
+
+    },
+    "From name" : {
+
+    },
+    "Full" : {
+
+    },
+    "Full also stores a sample of each request" : {
+
+    },
+    "GB" : {
+
+    },
+    "General" : {
+
+    },
+    "Hardware HDR tone mapping" : {
+
+    },
+    "Hardware acceleration" : {
+
+    },
+    "Heavy load on most hardware" : {
+
+    },
+    "Hour of the day, 0 to 23, in the server's own time zone" : {
+
+    },
+    "Hours a prepared file nothing is waiting on stays after its last use. 0 deletes it once nothing needs it and it has gone unused for ten minutes" : {
+
+    },
+    "How far ahead of the client encoding runs before it pauses" : {
+
+    },
+    "How many each user may start in the period below. 0 means no limit" : {
+
+    },
+    "How many titles one account can request in the window below. Declined and failed requests don't count. At 0, only accounts with a group or account limit of their own can request" : {
+
+    },
+    "How much log history the database keeps" : {
+
+    },
+    "How much to record" : {
+
+    },
+    "How new content is noticed, grouped into messages, and how long it is kept" : {
+
+    },
+    "Identity" : {
+
+    },
+    "In-app" : {
+
+    },
+    "Items that finish scanning together arrive as one notification" : {
+
+    },
+    "Keep cached files for" : {
+
+    },
+    "Keep it" : {
+
+    },
+    "Keep my changes" : {
+
+    },
+    "Keeps this much already-downloaded media for instant backward seeking, then reclaims older transcode segments. Use 0 to disable cleanup; enabled values must be at least 120 seconds" : {
+
+    },
+    "Leave empty if the mail server needs no sign-in" : {
+
+    },
+    "Let people pick a DM per episode" : {
+
+    },
+    "Let people pick an email per episode" : {
+
+    },
+    "Let people sign in with your identity provider. A server uses one provider at a time" : {
+
+    },
+    "Limit window" : {
+
+    },
+    "Local network address" : {
+
+    },
+    "Log level" : {
+
+    },
+    "Log level and retention" : {
+
+    },
+    "Log retention" : {
+
+    },
+    "Logging" : {
+
+    },
+    "Login subtitle" : {
+
+    },
+    "MB" : {
+
+    },
+    "Mail server" : {
+
+    },
+    "Mail server address" : {
+
+    },
+    "Mark watched at" : {
+
+    },
+    "Marker source" : {
+
+    },
+    "Markers identify intros, credits, recaps, and previews so players can offer skip controls" : {
+
+    },
+    "Match each item against everyone's preferences" : {
+
+    },
+    "Match existing accounts by email" : {
+
+    },
+    "Max content age" : {
+
+    },
+    "Max messages per show" : {
+
+    },
+    "Maximum Postgres connections" : {
+
+    },
+    "Maximum log entries" : {
+
+    },
+    "Maximum log size" : {
+
+    },
+    "Mbps" : {
+
+    },
+    "Mention the requester on Discord" : {
+
+    },
+    "Mobile push through the push relay" : {
+
+    },
+    "NVENC" : {
+
+    },
+    "Needed" : {
+
+    },
+    "Needed when running more than one server" : {
+
+    },
+    "Network access" : {
+
+    },
+    "Network access providers give this server an identity on an overlay network such as Tailscale, so clients can reach it without port forwarding or a public reverse proxy. Providers are plugins: install one from the web admin and it appears here" : {
+
+    },
+    "New content waits this long so a season posts as one message" : {
+
+    },
+    "New value" : {
+
+    },
+    "No host runs this provider yet" : {
+
+    },
+    "No installed plugin provides network access. Install a network access provider from the web admin to connect this server to an overlay network" : {
+
+    },
+    "No other settings" : {
+
+    },
+    "No providers installed" : {
+
+    },
+    "No server channels are set up. Add one on the web admin" : {
+
+    },
+    "No single sign-on plugin is installed" : {
+
+    },
+    "None (insecure)" : {
+
+    },
+    "Normally a 4K version is requested only for people whose playback limit allows 4K, and only when a server takes 4K. With this on, every request also asks for 4K" : {
+
+    },
+    "Not needed" : {
+
+    },
+    "Notice new content" : {
+
+    },
+    "Notification events" : {
+
+    },
+    "Notification inbox in the web, mobile, and TV apps" : {
+
+    },
+    "Notifications" : {
+
+    },
+    "Off never re-encodes video. Silo still repackages files and converts audio for devices that need it" : {
+
+    },
+    "Off sends them the daily summary instead" : {
+
+    },
+    "Off: everyone signs in with the provider, except break-glass admins. Needs at least one break-glass admin; the server owner is one by default" : {
+
+    },
+    "Offline downloads, per-user and server-wide limits, and prepared copies" : {
+
+    },
+    "Older items are dropped instead of arriving as stale news" : {
+
+    },
+    "Online markers take priority. Local detection uses CPU" : {
+
+    },
+    "Online preferred + server detection" : {
+
+    },
+    "Online providers only" : {
+
+    },
+    "Open the authorization page" : {
+
+    },
+    "Open the page that shows them to save" : {
+
+    },
+    "Other settings" : {
+
+    },
+    "Overlay-network providers such as Tailscale that reach this server without port forwarding" : {
+
+    },
+    "Page" : {
+
+    },
+    "Passed" : {
+
+    },
+    "Password sign-in can't be turned off yet: no admin is a break-glass account. Open an admin on the Users page and turn on Break-glass account first, so someone can still sign in if the provider is down" : {
+
+    },
+    "Passwords" : {
+
+    },
+    "Pause encoding once the client is far enough ahead" : {
+
+    },
+    "People can ask for movies and series the server does not have" : {
+
+    },
+    "Per user" : {
+
+    },
+    "Per-user bandwidth" : {
+
+    },
+    "Period length" : {
+
+    },
+    "Permission checks" : {
+
+    },
+    "Plugin not running" : {
+
+    },
+    "Port" : {
+
+    },
+    "Post to server channels" : {
+
+    },
+    "Prefer 1080p versions" : {
+
+    },
+    "Prepare device-friendly copies" : {
+
+    },
+    "Prepare locally when workers are unavailable" : {
+
+    },
+    "Progress below this is ignored" : {
+
+    },
+    "Public URL" : {
+
+    },
+    "Public signups" : {
+
+    },
+    "Quick Sync" : {
+
+    },
+    "Quiet log prefixes" : {
+
+    },
+    "Raise only if the logs show connection-pool waits" : {
+
+    },
+    "Read notifications" : {
+
+    },
+    "Reading the server" : {
+
+    },
+    "Record new items during library scans" : {
+
+    },
+    "Replace the saved address, or clear it to turn Redis off" : {
+
+    },
+    "Replaces the number in the URL. Installs sharing one Redis each need their own" : {
+
+    },
+    "Request limit" : {
+
+    },
+    "Request limits and approval, the Sonarr and Radarr servers, and where requests go" : {
+
+    },
+    "Request titles added to a watchlist" : {
+
+    },
+    "Restart in progress" : {
+
+    },
+    "Restart needed" : {
+
+    },
+    "Restart requested" : {
+
+    },
+    "Retention" : {
+
+    },
+    "Rolling window each user's count is measured over, for example 24h or 168h" : {
+
+    },
+    "STARTTLS" : {
+
+    },
+    "Save your changes first. The test uses the saved mail settings" : {
+
+    },
+    "Search by key or value" : {
+
+    },
+    "Search settings" : {
+
+    },
+    "Self-service password reset" : {
+
+    },
+    "Send Discord messages" : {
+
+    },
+    "Send email from this server" : {
+
+    },
+    "Send notification emails" : {
+
+    },
+    "Send test email" : {
+
+    },
+    "Send the test to" : {
+
+    },
+    "Sends one real message through the saved mail settings" : {
+
+    },
+    "Server bandwidth" : {
+
+    },
+    "Server channels" : {
+
+    },
+    "Server log" : {
+
+    },
+    "Server-wide announcements posted to a shared destination" : {
+
+    },
+    "Set by the server's environment. Change it there" : {
+
+    },
+    "Sets the container log's level; Debug is loud, so keep it for chasing a problem. The Logs page records Info and above either way" : {
+
+    },
+    "Settings belong to one server. Pick a server to see and change them" : {
+
+    },
+    "Settle window" : {
+
+    },
+    "Show in Continue Watching after" : {
+
+    },
+    "Show on the local network" : {
+
+    },
+    "Shown under the server name on the sign-in page" : {
+
+    },
+    "Single sign-on" : {
+
+    },
+    "Single sign-on providers" : {
+
+    },
+    "Skip markers" : {
+
+    },
+    "Software" : {
+
+    },
+    "Software HDR tone mapping" : {
+
+    },
+    "Some of these settings apply after a restart" : {
+
+    },
+    "Start the plugin from the web admin first" : {
+
+    },
+    "Stored settings that have no page yet" : {
+
+    },
+    "Summary" : {
+
+    },
+    "TLS (implicit)" : {
+
+    },
+    "Test" : {
+
+    },
+    "Test connection" : {
+
+    },
+    "Test sends one sample message to the channel" : {
+
+    },
+    "Testing" : {
+
+    },
+    "The HTTPS address people open. Used for websocket origins and links in email notifications" : {
+
+    },
+    "The last post failed" : {
+
+    },
+    "The mail server Silo sends invitations, password resets, and notification emails through" : {
+
+    },
+    "The server did not send a version for its settings, so they cannot be changed safely. Update the server, then try again" : {
+
+    },
+    "The server did not send a version for these settings, so they cannot be changed safely. Update the server, then try again" : {
+
+    },
+    "The server shuts down. It comes back on its own only if a service manager such as Docker or systemd restarts it; otherwise, start it again yourself. Active streams will be interrupted" : {
+
+    },
+    "The server-wide defaults. Access groups and accounts can override them" : {
+
+    },
+    "The switch for the whole server. On, access groups and accounts decide who may download. Off, nobody can" : {
+
+    },
+    "The test asks the provider to confirm its saved connection. Setup stays on the web admin" : {
+
+    },
+    "The test could not run. Check your connection and try again" : {
+
+    },
+    "These settings have no page in the app yet. Some only take effect after the server restarts" : {
+
+    },
+    "This is separate from live playback routing" : {
+
+    },
+    "Throttle transcoding" : {
+
+    },
+    "Titles" : {
+
+    },
+    "Transcode back buffer" : {
+
+    },
+    "Transcode from the 1080p version instead of the 4K file when both exist" : {
+
+    },
+    "Trusted proxies" : {
+
+    },
+    "Unlinked accounts show their username instead" : {
+
+    },
+    "Unread notifications" : {
+
+    },
+    "Unsaved change" : {
+
+    },
+    "Unsaved changes" : {
+
+    },
+    "Use HEVC for clients that support HEVC over HLS. Other clients keep H.264" : {
+
+    },
+    "Use a whole number" : {
+
+    },
+    "Use a whole number, 0 or more" : {
+
+    },
+    "Use at least 1 day" : {
+
+    },
+    "Use the server's values" : {
+
+    },
+    "Use whatever your mail provider documents" : {
+
+    },
+    "VA-API" : {
+
+    },
+    "Video transcoding" : {
+
+    },
+    "VideoToolbox" : {
+
+    },
+    "Waiting for authorization" : {
+
+    },
+    "Watch behavior" : {
+
+    },
+    "Watch thresholds, transcoding, chapter thumbnails and seek previews, and skip markers" : {
+
+    },
+    "Web push" : {
+
+    },
+    "What the server logs, and how much log history the database keeps" : {
+
+    },
+    "When someone adds a title the library doesn't have to their watchlist, it is requested for them. Each profile can turn this off for itself" : {
+
+    },
+    "Where devices on your home network reach the server directly: the host's IP and the port it listens on, or the published port under Docker. Leave empty when apps already find the server on the local network" : {
+
+    },
+    "Where notifications go" : {
+
+    },
+    "Whole server" : {
+
+    },
+    "Will be cleared when you save" : {
+
+    },
+    "Work out who wants it" : {
+
+    },
+    "You have unsaved changes" : {
+
+    },
+    "Your edits are still here. Keep them to save over the server's values, or take the server's values" : {
+
+    },
+    "Your edits are still here. Keep them to save over the server's values, or take the server's values for the settings that changed" : {
+
+    },
+    "days" : {
+
+    },
+    "hours" : {
+
+    },
+    "no value" : {
+
+    },
+    "off" : {
+
+    },
+    "on" : {
+
+    },
+    "requests" : {
+
+    },
+    "seconds" : {
+
+    },
+    "API server · %@" : {
+
+    },
+    "Proxy node · %@" : {
+
+    },
+    "Applies after a restart: %@" : {
+
+    },
+    "Applies: %@. " : {
+
+    },
+    "Clients reach this host at %@" : {
+
+    },
+    "Last failure: %@" : {
+
+    },
+    "Last heard from %@" : {
+
+    },
+    "Needed for %@" : {
+
+    },
+    "Restart requested. %lld streams were told" : {
+
+    },
+    "Saved %@. It applies after a restart" : {
+
+    },
+    "The server now has %@" : {
+
+    },
+    "Up %@" : {
+
+    },
+    "Use %lld or less" : {
+
+    },
+    "Use %lld or more" : {
+
+    },
+    "Waiting since %@" : {
+
+    },
+    "%lld unsaved" : {
+
+    },
+    "Could not read this provider's status. Pull down to try again" : {
+
+    },
+    "Could not read the network access providers. Check your connection and try again" : {
+
+    },
+    "This server's settings couldn't be loaded. Try again" : {
+
+    },
+    "Could not load the server channels. Try again" : {
+
+    },
+    "Could not load the sign-in providers. Try again" : {
+
+    },
+    "Could not load settings. Check your connection and try again" : {
+
+    },
+    "Could not load the request settings. Check your connection and try again" : {
+
+    },
+    "Could not update setting. Check your connection and try again" : {
+
+    },
+    "Server name and address, sign-in, playback, logging, email, notifications and downloads, with tests and restart status" : {
+
+    },
+    "This account doesn't have platform administrator access." : {
+
+    },
+    "Unnamed account" : {
+
+    },
+    "Setting up" : {
+
+    },
+    "Nobody is active in %@ right now. Anyone who joins loses access until you reactivate it. Nothing is deleted." : {
+
+    },
+    "1 active member loses access to %@ until you reactivate it. Nothing is deleted." : {
+
+    },
+    "%lld active members lose access to %@ until you reactivate it. Nothing is deleted." : {
+
+    },
+    "Members of %@ can use it again." : {
+
+    },
+    "%@ goes from %@ to %@" : {
+
+    },
+    "%@ becomes %@" : {
+
+    },
+    "%@, revision %lld" : {
+
+    },
+    "No plan yet" : {
+
+    },
+    "The organizations couldn't be loaded. Check the connection and try again." : {
+
+    },
+    "More organizations couldn't be loaded. Check the connection and try again." : {
+
+    },
+    "Not available" : {
+
+    },
+    "This organization couldn't be loaded. Check the connection and try again." : {
+
+    },
+    "More members couldn't be loaded. Check the connection and try again." : {
+
+    },
+    "%@ is suspended" : {
+
+    },
+    "%@ is active again" : {
+
+    },
+    "%@ was suspended" : {
+
+    },
+    "%@ was reactivated" : {
+
+    },
+    "Your administrator access was renewed. Check the organization and try again." : {
+
+    },
+    "%@ couldn't be suspended. Check the connection and try again." : {
+
+    },
+    "%@ couldn't be reactivated. Check the connection and try again." : {
+
+    },
+    "The plan couldn't be loaded. Check the connection and try again." : {
+
+    },
+    "%@ · %@ at once" : {
+
+    },
+    "Members on the default settings get these changes. Access groups %@ made itself stay as they are." : {
+
+    },
+    "Nothing changes: %@ already uses this plan" : {
+
+    },
+    "The preview couldn't be made. Check the connection and try again." : {
+
+    },
+    "%@ is now on %@" : {
+
+    },
+    "The plan was applied, but this page couldn't be refreshed. Pull down to refresh." : {
+
+    },
+    "Your administrator access was renewed. Preview the change again to apply it." : {
+
+    },
+    "The plan changed since the preview. Preview again to see what it does now." : {
+
+    },
+    "The plan couldn't be applied. Check the connection and try again." : {
+
+    },
+    "Every organization on this server. Open one to manage its members, plan and libraries." : {
+
+    },
+    "No organizations match these filters" : {
+
+    },
+    "No organizations on this server yet" : {
+
+    },
+    "Search name or slug" : {
+
+    },
+    "Own libraries" : {
+
+    },
+    "Open as administrator" : {
+
+    },
+    "Reactivate organization" : {
+
+    },
+    "Suspend organization" : {
+
+    },
+    "Suspending blocks its members until you reactivate it. Nothing is deleted." : {
+
+    },
+    "No members yet" : {
+
+    },
+    "Every change to this organization and its members is recorded in the activity log. Organizations can't be deleted here." : {
+
+    },
+    "Plan" : {
+
+    },
+    "Current plan" : {
+
+    },
+    "Current plan is no longer offered" : {
+
+    },
+    "Organization limits" : {
+
+    },
+    "Last applied" : {
+
+    },
+    "Not yet" : {
+
+    },
+    "Default settings for members" : {
+
+    },
+    "None yet" : {
+
+    },
+    "Choosing a plan changes the organization's default settings for members. Access groups the organization made itself are never changed. You see the changes before they apply." : {
+
+    },
+    "No plans are offered yet. Plans are set up in the web admin." : {
+
+    },
+    "Choose a plan" : {
+
+    },
+    "%@ (revision %lld)" : {
+
+    },
+    "Preview changes" : {
+
+    },
+    "Warnings" : {
+
+    },
+    "This preview is no longer current. Close this and preview the change again." : {
+
+    },
+    "This preview has expired. Close this and preview the change again." : {
+
+    },
+    "Confirm plan change" : {
+
+    },
+    "Show all on %@" : {
+
+    },
+    "timed out" : {
+
+    },
+    "could not connect" : {
+
+    },
+    "secure connection failed" : {
+
+    },
+    "server error %lld" : {
+
+    },
+    "no usable answer" : {
+
+    },
+    "Can't reach %@" : {
+
+    },
+    "Open Bloem Admin to check the server" : {
+
+    },
+    "No answer since %@ (%@)" : {
+
+    },
+    "%@ is answering again" : {
+
+    },
+    "Answering again since %@" : {
+
+    },
+    "Open Bloem Admin to see it" : {
+
+    },
+    "Server alert" : {
+
+    },
+    "Alert when a server stops answering" : {
+
+    },
+    "Notifications are off for this app in iOS Settings" : {
+
+    },
+    "Open iOS Settings" : {
+
+    },
+    "Server alerts" : {
+
+    },
+    "iOS decides how often background checks run" : {
+
+    },
+    "Servers to watch" : {
+
+    },
+    "Checks only ask each server whether it is up and need no sign-in" : {
+
+    },
+    "Show details on the lock screen" : {
+
+    },
+    "Off shows only the server's name; this setting is for this device" : {
+
+    },
+    "Open Now playing" : {
+
+    },
+    "Open Requests" : {
+
+    },
+    "Open Dashboard" : {
+
+    },
+    "Opens Bloem Admin on Now playing" : {
+
+    },
+    "Opens Bloem Admin on Requests" : {
+
+    },
+    "Opens Bloem Admin on the Dashboard" : {
+
+    },
+    "API key administration isn't available on this server" : {
+
+    },
+    "API keys" : {
+
+    },
+    "Create keys, and change a key's rate tier, on the web admin." : {
+
+    },
+    "Keep key" : {
+
+    },
+    "Keys are created on the web admin and listed here." : {
+
+    },
+    "More keys could not be loaded" : {
+
+    },
+    "No API keys yet" : {
+
+    },
+    "Revoke %@" : {
+
+    },
+    "Revoke key" : {
+
+    },
+    "The server has no API key service running. Check its configuration on the web, then pull down to check again." : {
+
+    },
+    "%@ was already revoked" : {
+
+    },
+    "Revoked %@" : {
+
+    },
+    "The API keys could not be loaded." : {
+
+    },
+    "The key could not be revoked. Check the list and try again." : {
+
+    },
+    "The server sent no version for this key, so it can't be revoked safely. Try again, or revoke it on the web." : {
+
+    },
+    "This key changed since the list was loaded. Check it and try again." : {
+
+    },
+    "%@ stops working at once, and anything using it is refused from now on. This can't be undone." : {
+
+    },
+    "1 scope: %@" : {
+
+    },
+    "Elevated rate limit" : {
+
+    },
+    "Full access" : {
+
+    },
+    "Last used %@" : {
+
+    },
+    "Never used" : {
+
+    },
+    "Owner: %@" : {
+
+    },
+    "Owner: unknown account" : {
+
+    },
+    "Revoke %@?" : {
+
+    },
+    "Unnamed key" : {
+
+    },
+    "%lld %@ %@" : {
+
+    },
+    "%lld of %lld %@ %@." : {
+
+    },
+    "%lld selected" : {
+
+    },
+    "Approve %lld" : {
+
+    },
+    "Approving %lld of %lld" : {
+
+    },
+    "Decline %lld" : {
+
+    },
+    "Decline %lld request" : {
+
+    },
+    "Decline %lld requests" : {
+
+    },
+    "Declining %lld of %lld" : {
+
+    },
+    "None selected" : {
+
+    },
+    "Select all %lld shown" : {
+
+    },
+    "The %lld that failed stay selected, with the reason for each." : {
+
+    },
+    "The %lld that failed stays selected, with its reason." : {
+
+    },
+    "The request could not be sent." : {
+
+    },
+    "The request will be marked declined, and the requester is told. Add an optional note for them." : {
+
+    },
+    "The requests will be marked declined, and each requester is told. Add an optional note for them." : {
+
+    },
+    "approved" : {
+
+    },
+    "declined" : {
+
+    },
+    "request" : {
+
+    },
+    "Approving requests" : {
+
+    },
+    "Declining requests" : {
+
+    },
+    "Keep requests" : {
+
+    },
+    "Select" : {
+
+    },
+    "%lld request needs approval" : {
+
+    },
+    "%lld requests need approval" : {
+
+    },
+    "Couldn't refresh · last updated %@" : {
+
+    },
+    "Selects or deselects the request" : {
+
+    },
+    "Check the server's configuration on the web." : {
+
+    },
+    "Request administration isn't available on this server" : {
+
+    },
+    "The server has no request service running. Check its configuration on the web, then pull down to check again." : {
+
+    },
+    "Admin API keys and tier assignment." : {
+
+    },
+    "The link couldn't be confirmed. Close this and create another one; it replaces any earlier link." : {
+
+    },
+    "The server didn't return a link. Close this and create another one." : {
+
+    },
+    "Set a temporary password" : {
+
+    },
+    "This replaces %@'s password. Share the new one with %@ yourself; they choose their own at the next sign-in." : {
+
+    },
+    "Choose a password yourself and share it. %@ must change it at the next sign-in." : {
+
+    },
+    "Create a one-time link and give it to %@ yourself. You'll see it once. Any earlier link stops working." : {
+
+    },
+    "Link to hand over" : {
+
+    },
+    "Reset links aren't available on this server. Set the server's public address on the web to turn them on." : {
+
+    },
+    "Set temporary password" : {
+
+    },
+    "This account is disabled. Enable it first to create a link." : {
+
+    },
+    "A PIN can be at most %lld bytes." : {
+
+    },
+    "Anyone signed in to %@ with the old PIN is signed out of it." : {
+
+    },
+    "Change PIN" : {
+
+    },
+    "Children's profile" : {
+
+    },
+    "Its watch history and collections are deleted, and anyone signed in to it is signed out. This can't be undone. A stream already playing on it isn't stopped." : {
+
+    },
+    "Leave it empty for a profile that opens without a PIN." : {
+
+    },
+    "New PIN" : {
+
+    },
+    "No PIN" : {
+
+    },
+    "Only the server owner can change this account's profiles. You can view them." : {
+
+    },
+    "PIN (optional)" : {
+
+    },
+    "Remove" : {
+
+    },
+    "Set PIN" : {
+
+    },
+    "The profile opens without a PIN until a new one is set." : {
+
+    },
+    "This is the account's main profile: anyone using the account can open it until a new PIN is set." : {
+
+    },
+    "Could not load the profiles." : {
+
+    },
+    "PIN cleared on %@" : {
+
+    },
+    "PIN set on %@" : {
+
+    },
+    "The PIN couldn't be cleared. Check the profile and try again." : {
+
+    },
+    "The PIN couldn't be set. Check the profile and try again." : {
+
+    },
+    "The new name couldn't be saved. Check the profile and try again." : {
+
+    },
+    "The profile couldn't be added. Check the profiles below and try again." : {
+
+    },
+    "The profile couldn't be removed. Check the profiles below and try again." : {
+
+    },
+    "Expired %@" : {
+
+    },
+    "No activity since signing in" : {
+
+    },
+    "Not seen yet" : {
+
+    },
+    "Not watching right now" : {
+
+    },
+    "Watching now" : {
+
+    },
+    "Watching now · %lld stream" : {
+
+    },
+    "Watching now · %lld streams" : {
+
+    },
+    "%lld scopes: %@" : {
+
+    },
+    "Media libraries, paths, scanning, and catalog import" : {
+
+    },
+    "Stream nodes, remote worker status, and where playback work runs" : {
+
+    },
+    "Nightly backups of the database and uploaded files, and how to restore them" : {
+
+    },
+    "Plugin catalog, repositories, installs, and plugin configuration" : {
+
+    },
+    "Admin API keys and tier assignment" : {
+
+    },
+    "Use current value" : {
+
+    },
+    "Add a Silo server" : {
+
+    },
+    "Add user to %@" : {
+
+    },
+    "A server can't be reached" : {
+
+    },
+    "A server is back" : {
+
+    },
+    "New request waiting" : {
+
+    },
+    "A library scan failed" : {
+
+    },
+    "A backup failed" : {
+
+    },
+    "A node is offline" : {
+
+    },
+    "A plugin needs attention" : {
+
+    },
+    "Server can't be reached" : {
+
+    },
+    "Server is back" : {
+
+    },
+    "Request waiting" : {
+
+    },
+    "Library scan failed" : {
+
+    },
+    "Backup failed" : {
+
+    },
+    "Node offline" : {
+
+    },
+    "Plugin needs attention" : {
+
+    },
+    "New notification" : {
+
+    },
+    "Open the app to see it" : {
+
+    },
+    "Request update" : {
+
+    },
+    "Admin alert" : {
+
+    },
+    "Couldn't approve, open the app" : {
+
+    },
+    "Couldn't decline, open the app" : {
+
+    },
+    "Checking whether this server can send notifications" : {
+
+    },
+    "Push isn't available on this server. Only the server-down checks apply" : {
+
+    },
+    "Push isn't available on this server yet. Only the server-down checks apply" : {
+
+    },
+    "Push needs an administrator account on this server" : {
+
+    },
+    "Sign in to this server to receive notifications" : {
+
+    },
+    "Allow notifications to receive these" : {
+
+    },
+    "Setting up notifications" : {
+
+    },
+    "This server sends you notifications" : {
+
+    },
+    "Couldn't set up notifications with this server. The app will try again" : {
+
+    },
+    "Allow notifications" : {
+
+    },
+    "Open iOS Settings, tap Notifications, then turn on Allow Notifications" : {
+
+    },
+    "No servers saved" : {
+
+    },
+    "A server can notify you when something is broken or waiting on you. Switch each kind on or off per server" : {
+
+    },
+    "That address isn't a Silo server. Check it and try again." : {
+
+    },
+    "Could not reach that server. Check the address, and that it uses https." : {
+
+    },
+    "Add a Silo server to manage it here" : {
+
+    },
+    "Sign out" : {
+
+    },
+    "App lock" : {
+
+    },
+    "Sign out of all servers?" : {
+
+    },
+    "This removes the sign-in from this device. The server stays in your list, and you can sign in again." : {
+
+    },
+    "Bloem Admin is locked" : {
+
+    },
+    "Unlock with Face ID, Touch ID or your passcode." : {
+
+    },
+    "Turn on a passcode, Face ID or Touch ID in Settings to use Bloem Admin." : {
+
+    },
+    "Server settings" : {
+
+    },
+    "This device is signed out of the server. Sign in again to carry on." : {
+
+    },
+    "This account can't open this page. Ask a server administrator for access." : {
+
+    },
+    "The app can't reach the server. Check the connection and try again." : {
+
+    },
+    "The server answered in a way this app doesn't understand. Update the server or the app, then try again." : {
+
+    },
+    "The server couldn't finish the request. Try again in a moment." : {
+
+    },
+    "No streams" : {
+
+    },
+    "Page %lld of %lld" : {
+
+    },
+    "Previous streams" : {
+
+    },
+    "More streams" : {
+
+    },
+    "Show other streams" : {
+
+    }
+  },
+  "version" : "1.0"
+}

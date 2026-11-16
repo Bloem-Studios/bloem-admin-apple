@@ -1,0 +1,44 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "%lld streams": {
+      "comment": "The Now playing widget's count of live streams, in its header and on the lock screen.",
+      "localizations": {
+        "en": {
+          "variations": {
+            "plural": {
+              "one": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld stream"
+                }
+              },
+              "other": {
+                "stringUnit": {
+                  "state": "translated",
+                  "value": "%lld streams"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "No streams": {
+      "comment": "The Now playing widget's count when nothing is playing."
+    },
+    "Page %lld of %lld": {
+      "comment": "VoiceOver: which page of streams the Now playing widget shows."
+    },
+    "Previous streams": {
+      "comment": "VoiceOver: the Up button on the Now playing widget."
+    },
+    "More streams": {
+      "comment": "VoiceOver: the Down button on the Now playing widget."
+    },
+    "Show other streams": {
+      "comment": "The name of the Now playing widget's page button."
+    }
+  }
+}
