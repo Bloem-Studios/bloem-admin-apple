@@ -1,6 +1,8 @@
 name: CI
 
 # Only pushes to main and manual runs start this workflow. The repository takes no pull requests, so no outside code runs here.
+# Jobs run on Bloem's own Mac (a self-hosted runner, one job at a time), which provides Xcode at XCODE_PATH and
+# the simulators BLOEM_CI_IPHONE and BLOEM_CI_IPAD in the runner's environment.
 on:
   push:
     branches: [main]
@@ -15,22 +17,21 @@ concurrency:
 
 env:
   SCHEME: BloemAdmin
-  XCODE_PATH: /Applications/Xcode_26.6.app/Contents/Developer
-  IPHONE_DESTINATION: platform=iOS Simulator,name=iPhone 17,OS=latest
-  IPAD_DESTINATION: platform=iOS Simulator,name=iPad Pro 13-inch (M5),OS=latest
+  XCODE_PATH: /Applications/Xcode.app/Contents/Developer
 
 jobs:
   project-integrity:
     name: Generated project is current
-    runs-on: macos-26
+    runs-on: [self-hosted, macOS, ARM64, bloem-mac]
     timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Select Xcode 26.6
+      - name: Select Xcode
         run: |
-          sudo xcode-select -s "$XCODE_PATH"
+          export DEVELOPER_DIR="$XCODE_PATH"
+          echo "DEVELOPER_DIR=$XCODE_PATH" >> "$GITHUB_ENV"
           xcodebuild -version
 
       - name: Install pinned XcodeGen 2.46.0
@@ -45,7 +46,8 @@ jobs:
           echo "$XCODEGEN_SHA256  $archive" | shasum -a 256 --check
           mkdir -p "$install_dir"
           ditto -x -k "$archive" "$install_dir"
-          sudo "$install_dir/xcodegen/install.sh"
+          export PATH="$install_dir/xcodegen/bin:$PATH"
+          echo "$install_dir/xcodegen/bin" >> "$GITHUB_PATH"
           test "$(xcodegen --version)" = "Version: 2.46.0"
 
       - name: Regenerate project and reject drift
@@ -64,15 +66,16 @@ jobs:
   tests:
     name: Unit and UI tests
     needs: project-integrity
-    runs-on: macos-26
+    runs-on: [self-hosted, macOS, ARM64, bloem-mac]
     timeout-minutes: 45
 
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Select Xcode 26.6 and verify destinations
+      - name: Select Xcode and verify destinations
         run: |
-          sudo xcode-select -s "$XCODE_PATH"
+          export DEVELOPER_DIR="$XCODE_PATH"
+          echo "DEVELOPER_DIR=$XCODE_PATH" >> "$GITHUB_ENV"
           xcodebuild -version
           xcodebuild -project BloemAdmin.xcodeproj -scheme "$SCHEME" -showdestinations
 
@@ -84,7 +87,7 @@ jobs:
           xcodebuild test \
             -project BloemAdmin.xcodeproj \
             -scheme "$SCHEME" \
-            -destination "$IPHONE_DESTINATION" \
+            -destination "platform=iOS Simulator,id=$BLOEM_CI_IPHONE" \
             -derivedDataPath "$RUNNER_TEMP/DerivedData-iPhone" \
             -resultBundlePath "$RUNNER_TEMP/BloemAdmin-iPhone.xcresult" \
             -enableCodeCoverage YES \
@@ -101,7 +104,7 @@ jobs:
           xcodebuild test \
             -project BloemAdmin.xcodeproj \
             -scheme "$SCHEME" \
-            -destination "$IPAD_DESTINATION" \
+            -destination "platform=iOS Simulator,id=$BLOEM_CI_IPAD" \
             -derivedDataPath "$RUNNER_TEMP/DerivedData-iPad" \
             -resultBundlePath "$RUNNER_TEMP/BloemAdmin-iPad.xcresult" \
             -enableCodeCoverage YES \
@@ -127,15 +130,16 @@ jobs:
   build-and-analyze:
     name: Swift 6 builds and analysis
     needs: project-integrity
-    runs-on: macos-26
+    runs-on: [self-hosted, macOS, ARM64, bloem-mac]
     timeout-minutes: 35
 
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Select Xcode 26.6
+      - name: Select Xcode
         run: |
-          sudo xcode-select -s "$XCODE_PATH"
+          export DEVELOPER_DIR="$XCODE_PATH"
+          echo "DEVELOPER_DIR=$XCODE_PATH" >> "$GITHUB_ENV"
           xcodebuild -version
 
       - name: Build strict Swift 6 Debug
@@ -200,15 +204,16 @@ jobs:
   release-archive:
     name: Unsigned Release archive and privacy manifest
     needs: [project-integrity, build-and-analyze, tests]
-    runs-on: macos-26
+    runs-on: [self-hosted, macOS, ARM64, bloem-mac]
     timeout-minutes: 30
 
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Select Xcode 26.6
+      - name: Select Xcode
         run: |
-          sudo xcode-select -s "$XCODE_PATH"
+          export DEVELOPER_DIR="$XCODE_PATH"
+          echo "DEVELOPER_DIR=$XCODE_PATH" >> "$GITHUB_ENV"
           xcodebuild -version
 
       - name: Produce unsigned generic-device archive
